@@ -171,7 +171,6 @@ class Simulation:
                 totals['went_back'] += 1
                 break
 
-            self.t += 1
             time.sleep(1)
             self.t += 1
 
