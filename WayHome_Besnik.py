@@ -93,8 +93,6 @@ class Simulation:
     def start(self):
 
         while True:
-
-
             self.person.move()
             self.street.spawnCar()
             self.logger.writeLog([self.id, self.person.position_x, self.person.position_y, self.t])
