@@ -1,11 +1,12 @@
-from random import random, seed, randrange, uniform
+from random import random, uniform
 import math
 import time
 import csv
 import pygame
+import os
+
 
 class Lane:
-
     def __init__(self, coordinates):
         self.coordinates = coordinates
         self.hasCar = False
@@ -15,6 +16,7 @@ class Street:
     def __init__(self, carProbability):
         self.carProbability = carProbability
 
+    # initiate lanes: the (1, 3) and (5, 7) indicate the values on the x-axis that the lane spans too
     rightLane = Lane((1, 3))
     leftLane = Lane((5, 7))
 
@@ -30,13 +32,10 @@ class Street:
 
 
 class Person:
-    # we are only concerned about the horizontal position of the person
-    # In this case, we assume the length of the road spans infinitely, whereas the length is 8 units
-    # therefore, the position represents how far is the person from 0 to 8 in the street
-    # if the person is on positions 0-1, 4-5, 7-8 they are in the sidewalk, which means they are safe
-    # otherwise they are in danger to be run over by a car
+    # position_x and position_y indicate the position of the person on the street
     position_x = 0.0
-    position_y = 5.0
+    position_y = 0.0
+    # moving direction indicates the angel that the person is moving
     movingDirection = 0
     crossed = False
     alive = True
@@ -44,46 +43,49 @@ class Person:
     def __init__(self, movingType, movingSpeed):
         self.movingType = movingType
         self.movingSpeed = movingSpeed
+        # since the person starts in the right direction, then it makes sense for us to start the simulation where
+        # the person is <movingSpeed> meters in the right direction
+        # e.g.: if the movingSpeed is 2m/s and the person starts in the right direction, then the person's position
+        # on the x-axis would be 2
+        self.position_x = movingSpeed
 
     def move(self):
+        alpha_degree = 0
+
         if self.movingType == 'A':
             # change of direction with 90 degree possibility
             number = random()
 
             if number <= 0.25:
-                # In cases the person moves North or South, we don't advance the position on the street
-                # because they moved vertically
-                self.movingDirection = 90
-                self.position_y -= self.movingSpeed
+                # Degree change of 90, left turn
+                alpha_degree = 90
             elif number <= 0.5:
-                self.movingDirection = 270
-                self.position_y += self.movingSpeed
-            else:
-                self.movingDirection = 0
-                # In cases when the person moves east, we advance the position by <movingSpeed> meters
-                self.position_x += self.movingSpeed
+                # Degree change of -90, right turn
+                alpha_degree = -90
+
 
         if self.movingType == 'B':
             # new direction = old direction +α with α is uniformly distributed in [−2/3π, +2/3π]
             alpha = uniform(-2 / 3 * math.pi, 2 / 3 * math.pi)
             # convert from radian to degree
             alpha_degree = round(math.degrees(alpha), 2)
-            self.movingDirection += alpha_degree
-            self.movingDirection %= 360
-            self.position_x += math.cos(alpha_degree) * self.movingSpeed
-            self.position_y += math.sin(alpha_degree) * self.movingSpeed
+            # update the moving direction with the change of <alpha_degree> degrees
 
-        if self.position_x < 0:
-            self.position_x = 0
+        self.movingDirection += alpha_degree
+        self.movingDirection %= 360
+        # Add the cos of the alpha degree * the moving speed to the x position
+        self.position_x += math.cos(math.radians(alpha_degree)) * self.movingSpeed
+        # Add the sin of the alpha degree * the moving speed to the y position
+        self.position_y += math.sin(math.radians(alpha_degree)) * self.movingSpeed
+
 
 class Simulation:
     def __init__(self, movingType, movingSpeed, carProbability, simulationNumber):
         self.person = Person(movingType, movingSpeed)
         self.street = Street(carProbability)
         self.logger = Logger()
-        # TODO: generate random id for the simulation
-        self.id = str(time.time()) + '_' + str(simulationNumber)
-        self.t = 0
+        self.id = simulationNumber
+        self.t = 1
 
     def isInRange(self, number, range):
         return range[0] <= number <= range[1]
@@ -135,32 +137,61 @@ class Simulation:
             if not self.person.alive or self.person.crossed:
                 break
 
+            # If the right lane has a car running, and the person is on the right lane
             if self.street.rightLane.hasCar and self.isInRange(self.person.position_x,
                                                                self.street.rightLane.coordinates):
                 self.person.alive = False
-                self.logger.writeResult([self.id, 0, self.person.position_x, 'no', self.t])
-                print('Person Dead!')
+                self.logger.writeResult([self.id, 0, self.person.position_x, 'no', 'dead: right lane', self.t])
+                print('Person was ran over by the car!')
+                totals['dead'] += 1
                 break
 
-            if self.street.leftLane.hasCar and self.isInRange(self.person.position_x, self.street.leftLane.coordinates):
+            # If the left lane has a car running, and the person is on the right lane
+            if self.street.leftLane.hasCar and self.isInRange(self.person.position_x,
+                                                              self.street.leftLane.coordinates):
                 self.person.alive = False
-                self.logger.writeResult([self.id, 0, self.person.position_x, 'no', self.t])
-                print('Person Dead!')
+                logger.writeResult([self.id, 0, self.person.position_x, 'no', 'dead: left lane', self.t])
+                totals['dead'] += 1
+                print('Person was run over by the car!')
                 break
 
-            if self.person.position_x >= 8:
+            # if the person has crossed the street,
+            if self.person.position_x >= 7:
                 self.person.crossed = True
-                self.logger.writeResult([self.id, 0, self.person.position_x, 'yes', self.t])
+                logger.writeResult([self.id, 0, self.person.position_x, 'yes', 'Crossed', self.t])
                 print('Person Crossed, time elapsed: ' + str(self.t) + ' seconds')
+                totals['crossed'] += 1
                 break
+
+            # if the person went back on the initial sidewalk
+            if self.person.position_x <= 0:
+                self.person.crossed = True
+                logger.writeResult([self.id, 0, self.person.position_x, 'yes', 'Went back to the sidewalk', self.t])
+                print('Person went back to the sidewalk, time elapsed: ' + str(self.t) + ' seconds')
+                totals['went_back'] += 1
+                break
+
+            self.t += 1
             time.sleep(1)
             self.t += 1
 
 class Logger:
     resultsFilePath = 'WayHome_results.csv'
     logsFilePath = 'WayHome_logs.csv'
-    resultsColumns = ['id', 'startPosition', 'endPosition', 'has_crossed?', 'total_iterations']
+    resultsColumns = ['id', 'startPosition', 'endPosition', 'survived', 'epilogue', 'total_iterations']
     logsColumns = ['id', 'position_x', 'position_y', 'iteration_number']
+
+    def __init__(self):
+        if os.path.exists(self.logsFilePath):
+            os.remove(self.logsFilePath)
+
+        if os.path.exists(self.resultsFilePath):
+            os.remove(self.resultsFilePath)
+
+        open(self.resultsFilePath, 'a')
+        self.writeResult(self.resultsColumns)
+        open(self.logsFilePath, 'a')
+        self.writeLog(self.logsColumns)
 
     def writeLog(self, row):
         self.writeRow(row, self.logsFilePath)
@@ -177,6 +208,12 @@ class Logger:
 movingType = 'B'
 movingSpeed = 2
 carProbability = 0.05
+logger = Logger()
+totals = {
+    "crossed": 0,
+    "dead": 0,
+    "went_back": 0
+}
 
 # for i in range(1, 100):
 simulation = Simulation(movingType, movingSpeed, carProbability, 1)
