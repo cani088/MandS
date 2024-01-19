@@ -2,6 +2,8 @@ from random import random, uniform
 import math
 import time
 import csv
+
+import numpy
 import pygame
 import os
 
@@ -64,12 +66,16 @@ class Person:
                 alpha_degree = -90
 
 
-        if self.movingType == 'B':
+        if self.movingType == 'B' or self.movingType == 'C':
             # new direction = old direction +α with α is uniformly distributed in [−2/3π, +2/3π]
             alpha = uniform(-2 / 3 * math.pi, 2 / 3 * math.pi)
             # convert from radian to degree
             alpha_degree = round(math.degrees(alpha), 2)
             # update the moving direction with the change of <alpha_degree> degrees
+
+            # generate a random moving speed between 0 and 2
+        if self.movingType == 'C':
+            self.movingSpeed = numpy.random.exponential(scale=2, size=1)
 
         self.movingDirection += alpha_degree
         self.movingDirection %= 360
