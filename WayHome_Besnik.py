@@ -54,12 +54,9 @@ class Person:
     def move(self):
         alpha_degree = 0
 
-
-
         if self.movingType == 'A':
             # change of direction with 90 degree possibility
             number = random()
-
             if number <= 0.25:
                 # Degree change of 90, left turn
                 alpha_degree = 90
@@ -100,15 +97,11 @@ class Simulation:
         return range[0] <= number <= range[1]
 
     def start(self):
-
-        while True:
+        while self.person.alive and not self.person.crossed:
             self.person.move()
             self.street.spawnCar()
             self.logger.writeLog([self.id, self.person.position_x, self.person.position_y, self.t])
             print('X: ' + str(self.person.position_x) + ' Y: ' + str(self.person.position_y))
-
-            if not self.person.alive or self.person.crossed:
-                break
 
             # If the right lane has a car running, and the person is on the right lane
             if self.street.rightLane.hasCar and self.isInRange(self.person.position_x,

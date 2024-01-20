@@ -73,7 +73,7 @@ class Person:
             alpha_degree = round(math.degrees(alpha), 2)
             # update the moving direction with the change of <alpha_degree> degrees
 
-            # generate a random moving speed between 0 and 2
+        # generate a random moving speed between 0 and 2
         if self.movingType == 'C':
             self.movingSpeed = numpy.random.exponential(scale=2, size=1)
 
