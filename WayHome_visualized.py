@@ -36,7 +36,7 @@ class Street:
 class Person:
     # position_x and position_y indicate the position of the person on the street
     position_x = 0.0
-    position_y = 0.0
+    position_y = 2.0
     # moving direction indicates the angel that the person is moving
     movingDirection = 0
     crossed = False
@@ -49,7 +49,7 @@ class Person:
         # the person is <movingSpeed> meters in the right direction
         # e.g.: if the movingSpeed is 2m/s and the person starts in the right direction, then the person's position
         # on the x-axis would be 2
-        self.position_x = movingSpeed
+        self.position_x = 0
 
     def move(self):
         alpha_degree = 0
@@ -75,14 +75,16 @@ class Person:
 
         # generate a random moving speed between 0 and 2
         if self.movingType == 'C':
-            self.movingSpeed = numpy.random.exponential(scale=2, size=1)
+            # self.movingSpeed = numpy.random.exponential(scale=2, size=1)[0]
+            self.movingSpeed = random() * 2
+            print('step size: ' + str(self.movingSpeed))
 
         self.movingDirection += alpha_degree
         self.movingDirection %= 360
         # Add the cos of the alpha degree * the moving speed to the x position
-        self.position_x += math.cos(math.radians(alpha_degree)) * self.movingSpeed
+        self.position_x += math.cos(math.radians(self.movingDirection)) * self.movingSpeed
         # Add the sin of the alpha degree * the moving speed to the y position
-        self.position_y += math.sin(math.radians(alpha_degree)) * self.movingSpeed
+        self.position_y += math.sin(math.radians(self.movingDirection)) * self.movingSpeed
 
 
 class Simulation:
@@ -106,7 +108,7 @@ class Simulation:
         personImage = pygame.transform.scale(personImage, (30, 80))
         laneSquare = pygame.Surface((200, 1000))
         laneSquare.fill('red')
-        screen.blit(personImage, (100, self.person.position_y * 100))
+        screen.blit(personImage, (100, 100))
 
         screen.blit(personImage, (0, 0))
 
@@ -119,7 +121,6 @@ class Simulation:
 
             self.person.move()
             self.street.spawnCar()
-            self.logger.writeLog([self.id, self.person.position_x, self.person.position_y, self.t])
             print('X: ' + str(self.person.position_x) + ' Y: ' + str(self.person.position_y))
             screen.blit(background, (0, 0))
 
@@ -141,6 +142,7 @@ class Simulation:
             clock.tick(60)
 
             if not self.person.alive or self.person.crossed:
+                time.sleep(2)
                 break
 
             # If the right lane has a car running, and the person is on the right lane
@@ -149,33 +151,22 @@ class Simulation:
                 self.person.alive = False
                 self.logger.writeResult([self.id, 0, self.person.position_x, 'no', 'dead: right lane', self.t])
                 print('Person was ran over by the car!')
-                totals['dead'] += 1
-                break
 
             # If the left lane has a car running, and the person is on the right lane
             if self.street.leftLane.hasCar and self.isInRange(self.person.position_x,
                                                               self.street.leftLane.coordinates):
                 self.person.alive = False
-                logger.writeResult([self.id, 0, self.person.position_x, 'no', 'dead: left lane', self.t])
-                totals['dead'] += 1
                 print('Person was run over by the car!')
-                break
 
             # if the person has crossed the street,
             if self.person.position_x >= 7:
                 self.person.crossed = True
-                logger.writeResult([self.id, 0, self.person.position_x, 'yes', 'Crossed', self.t])
                 print('Person Crossed, time elapsed: ' + str(self.t) + ' seconds')
-                totals['crossed'] += 1
-                break
 
             # if the person went back on the initial sidewalk
             if self.person.position_x <= 0:
                 self.person.crossed = True
-                logger.writeResult([self.id, 0, self.person.position_x, 'yes', 'Went back to the sidewalk', self.t])
                 print('Person went back to the sidewalk, time elapsed: ' + str(self.t) + ' seconds')
-                totals['went_back'] += 1
-                break
 
             time.sleep(1)
             self.t += 1
@@ -210,15 +201,9 @@ class Logger:
             csv_writer.writerow(row)
 
 
-movingType = 'B'
-movingSpeed = 2
-carProbability = 0.05
-logger = Logger()
-totals = {
-    "crossed": 0,
-    "dead": 0,
-    "went_back": 0
-}
+movingType = 'C'
+movingSpeed = 1
+carProbability = 0.1
 
 # for i in range(1, 100):
 simulation = Simulation(movingType, movingSpeed, carProbability, 1)
