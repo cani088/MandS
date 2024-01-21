@@ -1,4 +1,4 @@
-from random import random, uniform
+from random import random, uniform, expovariate
 import math
 import time
 import csv
@@ -9,28 +9,24 @@ import os
 
 
 class Lane:
-    def __init__(self, coordinates):
+    def __init__(self, coordinates, carProbability):
         self.coordinates = coordinates
+        self.carProbability = carProbability
         self.hasCar = False
+        self.carTimes = []
+        self.generateCarTimes()
+
+    def generateCarTimes(self):
+        for i in range(0, 10000):
+            if random() < self.carProbability:
+                self.carTimes.append((i, i + 1))
 
 
 class Street:
     def __init__(self, carProbability):
-        self.carProbability = carProbability
-
-    # initiate lanes: the (1, 3) and (5, 7) indicate the values on the x-axis that the lane spans too
-    rightLane = Lane((1, 3))
-    leftLane = Lane((5, 7))
-
-    def spawnCar(self):
-        self.rightLane.hasCar = False
-        self.leftLane.hasCar = False
-
-        if random() <= self.carProbability:
-            self.rightLane.hasCar = True
-
-        if random() <= self.carProbability:
-            self.leftLane.hasCar = True
+        # initiate lanes: the (1, 3) and (5, 7) indicate the values on the x-axis that the lane spans too
+        self.rightLane = Lane((1, 3), carProbability)
+        self.leftLane = Lane((5, 7), carProbability)
 
 
 class Person:
@@ -45,11 +41,24 @@ class Person:
     def __init__(self, movingType, stepSize):
         self.movingType = movingType
         self.stepSize = stepSize
+        self.stepSizeConstant = stepSize
         # since the person starts in the right direction, then it makes sense for us to start the simulation where
         # the person is <stepSize> meters in the right direction
         # e.g.: if the stepSize is 2m and the person starts in the right direction, then the person's position
         # on the x-axis would be 2
         self.position_x = stepSize
+
+    def isInRange(self, number, range):
+        return range[0] <= number <= range[1]
+
+    def isInLaneWithCar(self, lane, time):
+        isInLane = lane.coordinates[0] <= self.position_x <= lane.coordinates[1]
+
+        if not isInLane:
+            return False
+
+        laneHasCar = any(start <= time <= end for start, end in lane.carTimes)
+        return isInLane and laneHasCar
 
     def move(self):
         alpha_degree = 0  # store the angle (in degrees) in which the direction is going to change
@@ -65,10 +74,6 @@ class Person:
             # generate a new alpha angle (in radians) which the person is expected to change the direction
             alpha = uniform(-2 / 3 * math.pi, 2 / 3 * math.pi)
             alpha_degree = round(math.degrees(alpha), 2)  # convert from radian to degree
-
-        # for case C, generate a step size that falls to a random value between 0 and 2
-        if self.movingType == 'C':
-            self.stepSize = random() * 2
 
         self.movingDirection += alpha_degree  # change the moving direction with <alpha_degree> degrees
         self.movingDirection %= 360
@@ -86,49 +91,42 @@ class Simulation:
         self.id = simulationNumber
         self.time = 1
         self.totalSteps = 1
-
-    def isInRange(self, number, range):
-        return range[0] <= number <= range[1]
+        self.carProbability = carProbability
 
     def start(self):
-        self.logger.writeLog([self.id, 0,
-                              0, 0, 0])
-        self.logger.writeLog([self.id, self.person.stepSize,
-                              0, 1, 1])
+        self.logger.writeLog([self.id, 0, 0, 0, 0])
+        self.logger.writeLog([self.id, self.person.stepSize, 0, 1, 1])
+
         while self.person.alive and not self.person.crossed:
             self.person.move()
             timeToAdd = 1
             if self.person.movingType == 'C':
-                timeToAdd = random()
+                timeToAdd = expovariate(1 / 1)
+                print('TimeToAdd: ' + str(timeToAdd))
 
             self.time += timeToAdd
             totals_global['time'] += timeToAdd
             totals_global['steps'] += 1
 
             self.totalSteps += 1
-            self.street.spawnCar()
-            self.logger.writeLog([self.id, self.person.position_x,
-                                  self.person.position_y, self.totalSteps, self.time])
-            # print('X: ' + str(self.person.position_x) + ' Y: ' + str(self.person.position_y))
+            self.logger.writeLog([self.id, self.person.position_x, self.person.position_y, self.totalSteps, self.time])
+            print('X: ' + str(self.person.position_x) + ' Y: ' + str(self.person.position_y))
 
-            # If the right lane has a car running, and the person is on the right lane
-            if self.street.rightLane.hasCar and self.isInRange(self.person.position_x,
-                                                               self.street.rightLane.coordinates):
+            if self.person.isInLaneWithCar(self.street.rightLane, self.time):
                 self.person.alive = False
                 self.logger.writeResult([self.id, 0, self.person.position_x, 'no', 'dead: right lane',
                                          self.totalSteps, self.time, self.person.stepSize,
-                                         self.person.movingType, self.street.carProbability])
+                                         self.person.movingType, self.carProbability])
                 print('Person was ran over by the car!')
                 totals_global['dead'] += 1
                 break
 
             # If the left lane has a car running, and the person is on the right lane
-            if self.street.leftLane.hasCar and self.isInRange(self.person.position_x,
-                                                              self.street.leftLane.coordinates):
+            if self.person.isInLaneWithCar(self.street.leftLane, self.time):
                 self.person.alive = False
                 logger.writeResult([self.id, 0, self.person.position_x, 'no', 'dead: left lane',
                                     self.totalSteps, self.time, self.person.stepSize,
-                                    self.person.movingType, self.street.carProbability])
+                                    self.person.movingType, self.carProbability])
                 totals_global['dead'] += 1
                 print('Person was run over by the car!')
                 break
@@ -138,7 +136,7 @@ class Simulation:
                 self.person.crossed = True
                 logger.writeResult([self.id, 0, self.person.position_x, 'yes', 'Crossed',
                                     self.totalSteps, self.time, self.person.stepSize,
-                                    self.person.movingType, self.street.carProbability])
+                                    self.person.movingType, self.carProbability])
                 print('Person Crossed, time elapsed: ' + str(self.time) + ' seconds')
                 totals_global['crossed'] += 1
                 break
@@ -148,7 +146,7 @@ class Simulation:
                 self.person.crossed = True
                 logger.writeResult([self.id, 0, self.person.position_x, 'yes', 'Went back to the sidewalk',
                                     self.totalSteps, self.time, self.person.stepSize,
-                                    self.person.movingType, self.street.carProbability])
+                                    self.person.movingType, self.carProbability])
                 print('Person went back to the sidewalk, time elapsed: ' + str(self.time) + ' seconds')
                 totals_global['went_back'] += 1
                 break
@@ -200,7 +198,7 @@ totals_global = {
     "time": 0
 }
 
-for i in range(0, 10000):
+for i in range(0, 1000):
     simulation = Simulation(movingType, stepSize, carProbability, logger, i)
     simulation.start()
 

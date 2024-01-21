@@ -201,7 +201,7 @@ class Logger:
             csv_writer.writerow(row)
 
 
-movingType = 'C'
+movingType = 'A'
 movingSpeed = 1
 carProbability = 0.1
 
