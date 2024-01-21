@@ -51,14 +51,19 @@ class Person:
     def isInRange(self, number, range):
         return range[0] <= number <= range[1]
 
-    def isInLaneWithCar(self, lane, time):
-        isInLane = lane.coordinates[0] <= self.position_x <= lane.coordinates[1]
+    def isInLaneWithCar(self, street, time):
+        for lane in [street.rightLane, street.leftLane]:
+            isInLane = lane.coordinates[0] <= self.position_x <= lane.coordinates[1]
 
-        if not isInLane:
-            return False
+            if not isInLane:
+                continue
 
-        laneHasCar = any(start <= time <= end for start, end in lane.carTimes)
-        return isInLane and laneHasCar
+            laneHasCar = any(start <= time <= end for start, end in lane.carTimes)
+
+            if laneHasCar:
+                return True
+
+        return False
 
     def move(self):
         alpha_degree = 0  # store the angle (in degrees) in which the direction is going to change
@@ -112,23 +117,13 @@ class Simulation:
             self.logger.writeLog([self.id, self.person.position_x, self.person.position_y, self.totalSteps, self.time])
             print('X: ' + str(self.person.position_x) + ' Y: ' + str(self.person.position_y))
 
-            if self.person.isInLaneWithCar(self.street.rightLane, self.time):
+            if self.person.isInLaneWithCar(self.street, self.time):
                 self.person.alive = False
-                self.logger.writeResult([self.id, 0, self.person.position_x, 'no', 'dead: right lane',
+                self.logger.writeResult([self.id, 0, self.person.position_x, 'no', 'dead',
                                          self.totalSteps, self.time, self.person.stepSize,
                                          self.person.movingType, self.carProbability])
                 print('Person was ran over by the car!')
                 totals_global['dead'] += 1
-                break
-
-            # If the left lane has a car running, and the person is on the right lane
-            if self.person.isInLaneWithCar(self.street.leftLane, self.time):
-                self.person.alive = False
-                logger.writeResult([self.id, 0, self.person.position_x, 'no', 'dead: left lane',
-                                    self.totalSteps, self.time, self.person.stepSize,
-                                    self.person.movingType, self.carProbability])
-                totals_global['dead'] += 1
-                print('Person was run over by the car!')
                 break
 
             # if the person has crossed the street,

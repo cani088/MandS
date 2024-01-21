@@ -1,1001 +1,1001 @@
 id,startPosition,endPosition,survived,epilogue,total_iterations,total_time,step_size,moving_type,car probability
-0,0,7.509319338103842,yes,Crossed,15,15,2,B,0.05
-1,0,7.18914359520518,yes,Crossed,11,11,2,B,0.05
-2,0,8.448096662930265,yes,Crossed,10,10,2,B,0.05
-3,0,7.167038385311585,yes,Crossed,14,14,2,B,0.05
-4,0,-1.1734477662562173,yes,Went back to the sidewalk,12,12,2,B,0.05
-5,0,7.578643230631357,yes,Crossed,4,4,2,B,0.05
-6,0,6.7830492050977,no,dead: left lane,7,7,2,B,0.05
-7,0,7.854441070782423,yes,Crossed,13,13,2,B,0.05
-8,0,-1.142629103589405,yes,Went back to the sidewalk,7,7,2,B,0.05
-9,0,7.609835573834343,yes,Crossed,7,7,2,B,0.05
-10,0,-0.5899386518955541,yes,Went back to the sidewalk,7,7,2,B,0.05
-11,0,8.150996540272557,yes,Crossed,15,15,2,B,0.05
-12,0,-1.5314968281411172,yes,Went back to the sidewalk,7,7,2,B,0.05
-13,0,-0.24272526216055523,yes,Went back to the sidewalk,4,4,2,B,0.05
-14,0,7.600034674084188,yes,Crossed,4,4,2,B,0.05
-15,0,8.847857815297017,yes,Crossed,16,16,2,B,0.05
-16,0,8.719237726986943,yes,Crossed,6,6,2,B,0.05
-17,0,8.240632374332627,yes,Crossed,5,5,2,B,0.05
-18,0,-0.5200020288773379,yes,Went back to the sidewalk,4,4,2,B,0.05
-19,0,-1.3640438650408888,yes,Went back to the sidewalk,5,5,2,B,0.05
-20,0,-0.7662216867193945,yes,Went back to the sidewalk,13,13,2,B,0.05
-21,0,5.348028132635318,no,dead: left lane,3,3,2,B,0.05
-22,0,2.6183659606866514,no,dead: right lane,2,2,2,B,0.05
-23,0,5.288897725723189,no,dead: left lane,7,7,2,B,0.05
-24,0,-0.5035302888029005,yes,Went back to the sidewalk,6,6,2,B,0.05
-25,0,-0.6067092449476001,yes,Went back to the sidewalk,4,4,2,B,0.05
-26,0,7.419904381778857,yes,Crossed,5,5,2,B,0.05
-27,0,7.238467720697935,yes,Crossed,10,10,2,B,0.05
-28,0,-0.6765693233120567,yes,Went back to the sidewalk,12,12,2,B,0.05
-29,0,7.670215033609555,yes,Crossed,4,4,2,B,0.05
-30,0,1.883826500804524,no,dead: right lane,2,2,2,B,0.05
-31,0,8.349307935704193,yes,Crossed,5,5,2,B,0.05
-32,0,7.06579375384258,yes,Crossed,6,6,2,B,0.05
-33,0,8.320101691952386,yes,Crossed,6,6,2,B,0.05
-34,0,-1.609559963182532,yes,Went back to the sidewalk,12,12,2,B,0.05
-35,0,7.359542996859769,yes,Crossed,17,17,2,B,0.05
-36,0,7.232946405692852,yes,Crossed,4,4,2,B,0.05
-37,0,-1.7428799312305565,yes,Went back to the sidewalk,7,7,2,B,0.05
-38,0,7.594934352477782,yes,Crossed,6,6,2,B,0.05
-39,0,6.22732644168966,no,dead: left lane,7,7,2,B,0.05
-40,0,2.6878772675624942,no,dead: right lane,10,10,2,B,0.05
-41,0,7.838978560813841,yes,Crossed,4,4,2,B,0.05
-42,0,8.140561180355967,yes,Crossed,5,5,2,B,0.05
-43,0,8.58365635657113,yes,Crossed,5,5,2,B,0.05
-44,0,-1.121763601934823,yes,Went back to the sidewalk,10,10,2,B,0.05
-45,0,-0.6387001912659381,yes,Went back to the sidewalk,6,6,2,B,0.05
-46,0,7.2512436912561435,yes,Crossed,6,6,2,B,0.05
-47,0,1.3842903413800038,no,dead: right lane,2,2,2,B,0.05
-48,0,-1.8498955321734238,yes,Went back to the sidewalk,17,17,2,B,0.05
-49,0,8.324509302470112,yes,Crossed,6,6,2,B,0.05
-50,0,-1.7334529019506892,yes,Went back to the sidewalk,5,5,2,B,0.05
-51,0,5.928997726364056,no,dead: left lane,4,4,2,B,0.05
-52,0,-0.47501845046072333,yes,Went back to the sidewalk,3,3,2,B,0.05
-53,0,-0.4194267003529635,yes,Went back to the sidewalk,6,6,2,B,0.05
-54,0,-1.4778793176893839,yes,Went back to the sidewalk,7,7,2,B,0.05
-55,0,7.634748436078096,yes,Crossed,4,4,2,B,0.05
-56,0,5.867045518015402,no,dead: left lane,9,9,2,B,0.05
-57,0,-0.389825806829591,yes,Went back to the sidewalk,3,3,2,B,0.05
-58,0,-0.45673128034427224,yes,Went back to the sidewalk,3,3,2,B,0.05
-59,0,-1.053468798911741,yes,Went back to the sidewalk,6,6,2,B,0.05
-60,0,-0.5295218562080322,yes,Went back to the sidewalk,3,3,2,B,0.05
-61,0,7.754525036164191,yes,Crossed,19,19,2,B,0.05
-62,0,-0.7989057280321705,yes,Went back to the sidewalk,4,4,2,B,0.05
-63,0,8.17073300469126,yes,Crossed,5,5,2,B,0.05
-64,0,7.066192328476865,yes,Crossed,14,14,2,B,0.05
-65,0,-0.8692529878913082,yes,Went back to the sidewalk,12,12,2,B,0.05
-66,0,7.4533669125611395,yes,Crossed,21,21,2,B,0.05
-67,0,7.577301085547747,yes,Crossed,6,6,2,B,0.05
-68,0,7.42103828752812,yes,Crossed,7,7,2,B,0.05
-69,0,-0.6110737689130108,yes,Went back to the sidewalk,19,19,2,B,0.05
-70,0,-0.6901632421554711,yes,Went back to the sidewalk,8,8,2,B,0.05
-71,0,-0.4861831164879318,yes,Went back to the sidewalk,3,3,2,B,0.05
-72,0,-1.3121029947623903,yes,Went back to the sidewalk,6,6,2,B,0.05
-73,0,-1.2689024694155344,yes,Went back to the sidewalk,4,4,2,B,0.05
-74,0,2.658314897145557,no,dead: right lane,6,6,2,B,0.05
-75,0,8.255253909426106,yes,Crossed,6,6,2,B,0.05
-76,0,8.009501710691325,yes,Crossed,7,7,2,B,0.05
-77,0,-0.3057617887784545,yes,Went back to the sidewalk,7,7,2,B,0.05
-78,0,-0.045842225503538,yes,Went back to the sidewalk,3,3,2,B,0.05
-79,0,8.392989423931072,yes,Crossed,20,20,2,B,0.05
-80,0,-1.2381746606152821,yes,Went back to the sidewalk,6,6,2,B,0.05
-81,0,-0.2754599070066388,yes,Went back to the sidewalk,3,3,2,B,0.05
-82,0,-0.3655608616947881,yes,Went back to the sidewalk,4,4,2,B,0.05
-83,0,8.560954298154595,yes,Crossed,5,5,2,B,0.05
-84,0,-0.747874550123502,yes,Went back to the sidewalk,3,3,2,B,0.05
-85,0,-0.5583060733406049,yes,Went back to the sidewalk,5,5,2,B,0.05
-86,0,7.227516079707939,yes,Crossed,12,12,2,B,0.05
-87,0,-1.303886459286471,yes,Went back to the sidewalk,5,5,2,B,0.05
-88,0,1.692158857146938,no,dead: right lane,9,9,2,B,0.05
-89,0,-0.7878089095014369,yes,Went back to the sidewalk,6,6,2,B,0.05
-90,0,-0.5330555144441189,yes,Went back to the sidewalk,4,4,2,B,0.05
-91,0,-0.5131717892396275,yes,Went back to the sidewalk,7,7,2,B,0.05
-92,0,7.240805617235884,yes,Crossed,9,9,2,B,0.05
-93,0,-1.2832464783922113,yes,Went back to the sidewalk,4,4,2,B,0.05
-94,0,-0.6611129762950082,yes,Went back to the sidewalk,8,8,2,B,0.05
-95,0,6.7769378133649845,no,dead: left lane,4,4,2,B,0.05
-96,0,-1.500427637417131,yes,Went back to the sidewalk,17,17,2,B,0.05
-97,0,-0.39986848416334986,yes,Went back to the sidewalk,5,5,2,B,0.05
-98,0,5.646775825148384,no,dead: left lane,3,3,2,B,0.05
-99,0,5.0950323929464485,no,dead: left lane,16,16,2,B,0.05
-100,0,-1.4377826179817776,yes,Went back to the sidewalk,4,4,2,B,0.05
-101,0,-0.791636402731051,yes,Went back to the sidewalk,10,10,2,B,0.05
-102,0,2.6133676657699705,no,dead: right lane,8,8,2,B,0.05
-103,0,2.893922029991799,no,dead: right lane,5,5,2,B,0.05
-104,0,-0.04191791008038992,yes,Went back to the sidewalk,3,3,2,B,0.05
-105,0,-0.5430344903541435,yes,Went back to the sidewalk,4,4,2,B,0.05
-106,0,-1.4831924130321066,yes,Went back to the sidewalk,9,9,2,B,0.05
-107,0,-0.26723329085259806,yes,Went back to the sidewalk,5,5,2,B,0.05
-108,0,8.270496284400629,yes,Crossed,6,6,2,B,0.05
-109,0,8.086816441718272,yes,Crossed,5,5,2,B,0.05
-110,0,7.875105136866224,yes,Crossed,4,4,2,B,0.05
-111,0,7.06910315999095,yes,Crossed,12,12,2,B,0.05
-112,0,8.595566242196135,yes,Crossed,9,9,2,B,0.05
-113,0,-0.5816795765191183,yes,Went back to the sidewalk,4,4,2,B,0.05
-114,0,-0.28248790884642383,yes,Went back to the sidewalk,4,4,2,B,0.05
-115,0,8.783956320394553,yes,Crossed,6,6,2,B,0.05
-116,0,2.5947497481555715,no,dead: right lane,2,2,2,B,0.05
-117,0,-1.5928098732418532,yes,Went back to the sidewalk,4,4,2,B,0.05
-118,0,-0.20821801055922767,yes,Went back to the sidewalk,11,11,2,B,0.05
-119,0,2.7980507976058457,no,dead: right lane,5,5,2,B,0.05
-120,0,-1.4101057970900375,yes,Went back to the sidewalk,8,8,2,B,0.05
-121,0,7.22878731227757,yes,Crossed,4,4,2,B,0.05
-122,0,-0.6080332553798558,yes,Went back to the sidewalk,14,14,2,B,0.05
-123,0,8.075448281973637,yes,Crossed,6,6,2,B,0.05
-124,0,2.9937580439961327,no,dead: right lane,8,8,2,B,0.05
-125,0,-0.4955266105853271,yes,Went back to the sidewalk,4,4,2,B,0.05
-126,0,7.096571321478576,yes,Crossed,10,10,2,B,0.05
-127,0,-0.6229912417529746,yes,Went back to the sidewalk,3,3,2,B,0.05
-128,0,-1.1721929423571842,yes,Went back to the sidewalk,12,12,2,B,0.05
-129,0,8.050233886066746,yes,Crossed,6,6,2,B,0.05
-130,0,7.077452214718209,yes,Crossed,10,10,2,B,0.05
-131,0,1.461536994519048,no,dead: right lane,8,8,2,B,0.05
-132,0,7.232921572175169,yes,Crossed,4,4,2,B,0.05
-133,0,-0.2682016886813281,yes,Went back to the sidewalk,3,3,2,B,0.05
-134,0,7.126271046527567,yes,Crossed,6,6,2,B,0.05
-135,0,-0.472112552837906,yes,Went back to the sidewalk,4,4,2,B,0.05
-136,0,2.087158786877609,no,dead: right lane,3,3,2,B,0.05
-137,0,1.0707776234095727,no,dead: right lane,11,11,2,B,0.05
-138,0,7.955806753662018,yes,Crossed,15,15,2,B,0.05
-139,0,7.665694463170746,yes,Crossed,4,4,2,B,0.05
-140,0,-0.7606717424980345,yes,Went back to the sidewalk,7,7,2,B,0.05
-141,0,-0.04345245176165702,yes,Went back to the sidewalk,3,3,2,B,0.05
-142,0,8.3521500731961,yes,Crossed,7,7,2,B,0.05
-143,0,1.166448878293246,no,dead: right lane,3,3,2,B,0.05
-144,0,7.191216256739735,yes,Crossed,6,6,2,B,0.05
-145,0,-1.2163889999725042,yes,Went back to the sidewalk,14,14,2,B,0.05
-146,0,7.729112166465224,yes,Crossed,8,8,2,B,0.05
-147,0,-1.7985953200515477,yes,Went back to the sidewalk,6,6,2,B,0.05
-148,0,-0.6212564276226582,yes,Went back to the sidewalk,3,3,2,B,0.05
-149,0,-0.19655369945233314,yes,Went back to the sidewalk,5,5,2,B,0.05
-150,0,-0.2822827166955264,yes,Went back to the sidewalk,13,13,2,B,0.05
-151,0,-0.9802327536387136,yes,Went back to the sidewalk,7,7,2,B,0.05
-152,0,-0.4834990636542189,yes,Went back to the sidewalk,3,3,2,B,0.05
-153,0,7.788714371943351,yes,Crossed,5,5,2,B,0.05
-154,0,7.346907809515116,yes,Crossed,9,9,2,B,0.05
-155,0,5.819498298855117,no,dead: left lane,6,6,2,B,0.05
-156,0,7.229062633382869,yes,Crossed,6,6,2,B,0.05
-157,0,8.32115167634712,yes,Crossed,6,6,2,B,0.05
-158,0,8.027348607959473,yes,Crossed,6,6,2,B,0.05
-159,0,-1.109714455097527,yes,Went back to the sidewalk,4,4,2,B,0.05
-160,0,2.237768255569195,no,dead: right lane,4,4,2,B,0.05
-161,0,-0.2912801474434543,yes,Went back to the sidewalk,3,3,2,B,0.05
-162,0,-0.3333102481357473,yes,Went back to the sidewalk,3,3,2,B,0.05
-163,0,7.573100122384245,yes,Crossed,4,4,2,B,0.05
-164,0,7.460480732570071,yes,Crossed,4,4,2,B,0.05
-165,0,8.06400561445966,yes,Crossed,10,10,2,B,0.05
-166,0,6.883394662951522,no,dead: left lane,5,5,2,B,0.05
-167,0,-0.20465064669283306,yes,Went back to the sidewalk,13,13,2,B,0.05
-168,0,2.357604430232699,no,dead: right lane,2,2,2,B,0.05
-169,0,1.8341505162981295,no,dead: right lane,4,4,2,B,0.05
-170,0,7.345344733447092,yes,Crossed,5,5,2,B,0.05
-171,0,-0.8613711230720198,yes,Went back to the sidewalk,3,3,2,B,0.05
-172,0,7.526066101144379,yes,Crossed,9,9,2,B,0.05
-173,0,7.178651218961858,yes,Crossed,11,11,2,B,0.05
-174,0,-0.05947580644660633,yes,Went back to the sidewalk,5,5,2,B,0.05
-175,0,-0.21935523497777143,yes,Went back to the sidewalk,5,5,2,B,0.05
-176,0,7.260341635355607,yes,Crossed,5,5,2,B,0.05
-177,0,7.0446860205675055,yes,Crossed,5,5,2,B,0.05
-178,0,7.208545175802628,yes,Crossed,11,11,2,B,0.05
-179,0,7.794734129153865,yes,Crossed,29,29,2,B,0.05
-180,0,-0.3391109134410075,yes,Went back to the sidewalk,3,3,2,B,0.05
-181,0,-0.9476217429250811,yes,Went back to the sidewalk,4,4,2,B,0.05
-182,0,-1.3659322010200714,yes,Went back to the sidewalk,10,10,2,B,0.05
-183,0,2.895044056163806,no,dead: right lane,5,5,2,B,0.05
-184,0,5.329418437471167,no,dead: left lane,3,3,2,B,0.05
-185,0,-0.6453972050019507,yes,Went back to the sidewalk,6,6,2,B,0.05
-186,0,-0.9080022078177814,yes,Went back to the sidewalk,8,8,2,B,0.05
-187,0,-0.672823178852425,yes,Went back to the sidewalk,15,15,2,B,0.05
-188,0,7.150053929665396,yes,Crossed,4,4,2,B,0.05
-189,0,7.629609224122669,yes,Crossed,10,10,2,B,0.05
-190,0,8.960492741921016,yes,Crossed,5,5,2,B,0.05
-191,0,-0.9419624199414858,yes,Went back to the sidewalk,4,4,2,B,0.05
-192,0,8.63854426999544,yes,Crossed,7,7,2,B,0.05
-193,0,-1.7481991993111652,yes,Went back to the sidewalk,10,10,2,B,0.05
-194,0,-0.15000359750023562,yes,Went back to the sidewalk,8,8,2,B,0.05
-195,0,1.1170423194024637,no,dead: right lane,8,8,2,B,0.05
-196,0,1.593521365474957,no,dead: right lane,5,5,2,B,0.05
-197,0,7.7560775795782035,yes,Crossed,6,6,2,B,0.05
-198,0,8.770575310259872,yes,Crossed,5,5,2,B,0.05
-199,0,7.302996262189185,yes,Crossed,5,5,2,B,0.05
-200,0,-1.1749984776752518,yes,Went back to the sidewalk,6,6,2,B,0.05
-201,0,7.173575377811181,yes,Crossed,4,4,2,B,0.05
-202,0,7.0237393579743825,yes,Crossed,5,5,2,B,0.05
-203,0,7.923674148342709,yes,Crossed,5,5,2,B,0.05
-204,0,-0.36173526063078065,yes,Went back to the sidewalk,5,5,2,B,0.05
-205,0,5.7337939644581235,no,dead: left lane,3,3,2,B,0.05
-206,0,-0.4403357070001408,yes,Went back to the sidewalk,7,7,2,B,0.05
-207,0,-1.2046429608332072,yes,Went back to the sidewalk,4,4,2,B,0.05
-208,0,7.700622109900939,yes,Crossed,5,5,2,B,0.05
-209,0,-0.5812489669126735,yes,Went back to the sidewalk,4,4,2,B,0.05
-210,0,7.51003164014509,yes,Crossed,9,9,2,B,0.05
-211,0,7.351828714691759,yes,Crossed,5,5,2,B,0.05
-212,0,-1.0502933661923428,yes,Went back to the sidewalk,4,4,2,B,0.05
-213,0,7.916900776913964,yes,Crossed,5,5,2,B,0.05
-214,0,7.94822155691843,yes,Crossed,5,5,2,B,0.05
-215,0,2.3852097983935465,no,dead: right lane,9,9,2,B,0.05
-216,0,7.352097331361066,yes,Crossed,4,4,2,B,0.05
-217,0,-0.2728499274455156,yes,Went back to the sidewalk,4,4,2,B,0.05
-218,0,5.81544837990628,no,dead: left lane,3,3,2,B,0.05
-219,0,-1.0718943477020622,yes,Went back to the sidewalk,4,4,2,B,0.05
-220,0,-0.41231129553088475,yes,Went back to the sidewalk,3,3,2,B,0.05
-221,0,-0.47167328946652876,yes,Went back to the sidewalk,9,9,2,B,0.05
-222,0,8.371438125807051,yes,Crossed,7,7,2,B,0.05
-223,0,7.196036802261994,yes,Crossed,7,7,2,B,0.05
-224,0,6.887476315304125,no,dead: left lane,8,8,2,B,0.05
-225,0,5.97809512436149,no,dead: left lane,4,4,2,B,0.05
-226,0,1.1426733657558967,no,dead: right lane,3,3,2,B,0.05
-227,0,7.919722187252021,yes,Crossed,9,9,2,B,0.05
-228,0,8.687398962408231,yes,Crossed,5,5,2,B,0.05
-229,0,8.620202575975096,yes,Crossed,17,17,2,B,0.05
-230,0,-0.3395614300359373,yes,Went back to the sidewalk,13,13,2,B,0.05
-231,0,2.191691505040448,no,dead: right lane,2,2,2,B,0.05
-232,0,-1.486578467431892,yes,Went back to the sidewalk,7,7,2,B,0.05
-233,0,7.1433793068708,yes,Crossed,5,5,2,B,0.05
-234,0,-0.12841679122391914,yes,Went back to the sidewalk,5,5,2,B,0.05
-235,0,-0.9411281606130046,yes,Went back to the sidewalk,4,4,2,B,0.05
-236,0,1.5335237928378336,no,dead: right lane,8,8,2,B,0.05
-237,0,8.091876928421344,yes,Crossed,6,6,2,B,0.05
-238,0,-0.42412741664285025,yes,Went back to the sidewalk,8,8,2,B,0.05
-239,0,-0.4981520821845875,yes,Went back to the sidewalk,3,3,2,B,0.05
-240,0,-1.2980585206160975,yes,Went back to the sidewalk,4,4,2,B,0.05
-241,0,7.320874443980745,yes,Crossed,6,6,2,B,0.05
-242,0,-1.2712431419735202,yes,Went back to the sidewalk,8,8,2,B,0.05
-243,0,-0.16864633514727734,yes,Went back to the sidewalk,3,3,2,B,0.05
-244,0,7.883389391917172,yes,Crossed,4,4,2,B,0.05
-245,0,5.580858639909157,no,dead: left lane,5,5,2,B,0.05
-246,0,-0.5932592610614905,yes,Went back to the sidewalk,5,5,2,B,0.05
-247,0,8.390720629509161,yes,Crossed,6,6,2,B,0.05
-248,0,8.2445345633907,yes,Crossed,6,6,2,B,0.05
-249,0,1.135828502396036,no,dead: right lane,2,2,2,B,0.05
-250,0,7.3872707625181775,yes,Crossed,9,9,2,B,0.05
-251,0,7.303902119130411,yes,Crossed,4,4,2,B,0.05
-252,0,7.196899932974983,yes,Crossed,8,8,2,B,0.05
-253,0,7.38867826140335,yes,Crossed,5,5,2,B,0.05
-254,0,2.5332380023483094,no,dead: right lane,7,7,2,B,0.05
-255,0,-1.6027422461568945,yes,Went back to the sidewalk,9,9,2,B,0.05
-256,0,-0.5390977736082425,yes,Went back to the sidewalk,19,19,2,B,0.05
-257,0,-0.3629062782350089,yes,Went back to the sidewalk,4,4,2,B,0.05
-258,0,-1.5633302777458853,yes,Went back to the sidewalk,4,4,2,B,0.05
-259,0,-1.3350117896154274,yes,Went back to the sidewalk,6,6,2,B,0.05
-260,0,-0.5420285731159311,yes,Went back to the sidewalk,3,3,2,B,0.05
-261,0,-0.201932429754488,yes,Went back to the sidewalk,6,6,2,B,0.05
-262,0,7.00673232687941,yes,Crossed,19,19,2,B,0.05
-263,0,-0.5778634710308204,yes,Went back to the sidewalk,10,10,2,B,0.05
-264,0,-0.9226830589741426,yes,Went back to the sidewalk,8,8,2,B,0.05
-265,0,-0.9823122444520367,yes,Went back to the sidewalk,5,5,2,B,0.05
-266,0,7.298182624558687,yes,Crossed,12,12,2,B,0.05
-267,0,7.29925257608566,yes,Crossed,4,4,2,B,0.05
-268,0,7.521487329584474,yes,Crossed,12,12,2,B,0.05
-269,0,1.7899767159047328,no,dead: right lane,8,8,2,B,0.05
-270,0,-0.39509784516304736,yes,Went back to the sidewalk,4,4,2,B,0.05
-271,0,8.91897090765875,yes,Crossed,6,6,2,B,0.05
-272,0,1.4888477255716268,no,dead: right lane,7,7,2,B,0.05
-273,0,5.593704140098707,no,dead: left lane,5,5,2,B,0.05
-274,0,7.268904799779793,yes,Crossed,6,6,2,B,0.05
-275,0,-1.1364552119151206,yes,Went back to the sidewalk,8,8,2,B,0.05
-276,0,8.039772674512438,yes,Crossed,6,6,2,B,0.05
-277,0,-1.820050107443694,yes,Went back to the sidewalk,10,10,2,B,0.05
-278,0,1.3465913550120885,no,dead: right lane,3,3,2,B,0.05
-279,0,7.165813856425044,yes,Crossed,9,9,2,B,0.05
-280,0,7.582994950746668,yes,Crossed,6,6,2,B,0.05
-281,0,1.2741480264832274,no,dead: right lane,2,2,2,B,0.05
-282,0,5.917416055797261,no,dead: left lane,6,6,2,B,0.05
-283,0,8.453236215033277,yes,Crossed,12,12,2,B,0.05
-284,0,-1.0993375424144018,yes,Went back to the sidewalk,18,18,2,B,0.05
-285,0,-0.3517555139409593,yes,Went back to the sidewalk,11,11,2,B,0.05
-286,0,-0.6088345866617,yes,Went back to the sidewalk,3,3,2,B,0.05
-287,0,7.039162174915206,yes,Crossed,17,17,2,B,0.05
-288,0,5.401515828016707,no,dead: left lane,3,3,2,B,0.05
-289,0,-1.1096905672358035,yes,Went back to the sidewalk,7,7,2,B,0.05
-290,0,-1.1946159257036464,yes,Went back to the sidewalk,16,16,2,B,0.05
-291,0,7.252868792008867,yes,Crossed,15,15,2,B,0.05
-292,0,7.226986729221048,yes,Crossed,5,5,2,B,0.05
-293,0,7.398275164322316,yes,Crossed,6,6,2,B,0.05
-294,0,-1.5280981630334973,yes,Went back to the sidewalk,8,8,2,B,0.05
-295,0,7.224082815226596,yes,Crossed,5,5,2,B,0.05
-296,0,1.8963738642178753,no,dead: right lane,2,2,2,B,0.05
-297,0,7.668615481250083,yes,Crossed,4,4,2,B,0.05
-298,0,-0.4221792087637706,yes,Went back to the sidewalk,4,4,2,B,0.05
-299,0,8.408621549994969,yes,Crossed,5,5,2,B,0.05
-300,0,5.148719629605205,no,dead: left lane,8,8,2,B,0.05
-301,0,7.037654998124074,yes,Crossed,12,12,2,B,0.05
-302,0,5.997693612312613,no,dead: left lane,12,12,2,B,0.05
-303,0,2.5098789908009533,no,dead: right lane,2,2,2,B,0.05
-304,0,8.064643588655024,yes,Crossed,8,8,2,B,0.05
-305,0,-1.2581791385655359,yes,Went back to the sidewalk,7,7,2,B,0.05
-306,0,-0.1962555688846992,yes,Went back to the sidewalk,16,16,2,B,0.05
-307,0,7.199472304792433,yes,Crossed,4,4,2,B,0.05
-308,0,-0.4139406161650817,yes,Went back to the sidewalk,7,7,2,B,0.05
-309,0,-0.4872024621267814,yes,Went back to the sidewalk,19,19,2,B,0.05
-310,0,-0.8669230869688751,yes,Went back to the sidewalk,4,4,2,B,0.05
-311,0,-0.2847291799340934,yes,Went back to the sidewalk,4,4,2,B,0.05
-312,0,2.601125195842295,no,dead: right lane,7,7,2,B,0.05
-313,0,-1.3069081384646417,yes,Went back to the sidewalk,9,9,2,B,0.05
-314,0,7.929550558153288,yes,Crossed,12,12,2,B,0.05
-315,0,-0.22513667389166547,yes,Went back to the sidewalk,12,12,2,B,0.05
-316,0,5.088767200851768,no,dead: left lane,8,8,2,B,0.05
-317,0,8.033056481816395,yes,Crossed,6,6,2,B,0.05
-318,0,2.954114450536789,no,dead: right lane,4,4,2,B,0.05
-319,0,7.105668722434448,yes,Crossed,5,5,2,B,0.05
-320,0,2.902689671408833,no,dead: right lane,2,2,2,B,0.05
-321,0,-0.017683874380393982,yes,Went back to the sidewalk,3,3,2,B,0.05
-322,0,-0.6065701364537547,yes,Went back to the sidewalk,4,4,2,B,0.05
-323,0,1.9602714733342879,no,dead: right lane,8,8,2,B,0.05
-324,0,-1.441627543161188,yes,Went back to the sidewalk,4,4,2,B,0.05
-325,0,5.794259904665866,no,dead: left lane,4,4,2,B,0.05
-326,0,-0.0162074987027383,yes,Went back to the sidewalk,13,13,2,B,0.05
-327,0,8.760772709060095,yes,Crossed,6,6,2,B,0.05
-328,0,-0.8535653825058154,yes,Went back to the sidewalk,6,6,2,B,0.05
-329,0,8.1766229148865,yes,Crossed,13,13,2,B,0.05
-330,0,1.053222142448885,no,dead: right lane,6,6,2,B,0.05
-331,0,-0.4567084546784721,yes,Went back to the sidewalk,6,6,2,B,0.05
-332,0,7.389199543545008,yes,Crossed,5,5,2,B,0.05
-333,0,2.3918922884850353,no,dead: right lane,2,2,2,B,0.05
-334,0,8.510125626562504,yes,Crossed,14,14,2,B,0.05
-335,0,2.0734262382321575,no,dead: right lane,7,7,2,B,0.05
-336,0,5.02981490336612,no,dead: left lane,4,4,2,B,0.05
-337,0,-0.5180331265329374,yes,Went back to the sidewalk,21,21,2,B,0.05
-338,0,2.1098389167210136,no,dead: right lane,14,14,2,B,0.05
-339,0,5.957576644397034,no,dead: left lane,3,3,2,B,0.05
-340,0,5.279818554024385,no,dead: left lane,7,7,2,B,0.05
-341,0,-0.5059833105172564,yes,Went back to the sidewalk,4,4,2,B,0.05
-342,0,7.096061870179551,yes,Crossed,4,4,2,B,0.05
-343,0,7.226653562601315,yes,Crossed,4,4,2,B,0.05
-344,0,-1.0725340387770392,yes,Went back to the sidewalk,13,13,2,B,0.05
-345,0,-1.5062065175765622,yes,Went back to the sidewalk,4,4,2,B,0.05
-346,0,7.127593432615317,yes,Crossed,9,9,2,B,0.05
-347,0,-0.4103331497759637,yes,Went back to the sidewalk,8,8,2,B,0.05
-348,0,-0.5355855444568179,yes,Went back to the sidewalk,10,10,2,B,0.05
-349,0,8.04107811192296,yes,Crossed,6,6,2,B,0.05
-350,0,-1.6891984625266168,yes,Went back to the sidewalk,6,6,2,B,0.05
-351,0,8.078414951179209,yes,Crossed,5,5,2,B,0.05
-352,0,7.344697295255624,yes,Crossed,5,5,2,B,0.05
-353,0,8.121792518115678,yes,Crossed,13,13,2,B,0.05
-354,0,7.744886935616906,yes,Crossed,8,8,2,B,0.05
-355,0,7.763648923007896,yes,Crossed,4,4,2,B,0.05
-356,0,7.479062853750925,yes,Crossed,7,7,2,B,0.05
-357,0,7.830502272433443,yes,Crossed,10,10,2,B,0.05
-358,0,1.8984655025677677,no,dead: right lane,2,2,2,B,0.05
-359,0,8.11925587770345,yes,Crossed,5,5,2,B,0.05
-360,0,-0.8668723298533565,yes,Went back to the sidewalk,6,6,2,B,0.05
-361,0,7.551680491051949,yes,Crossed,6,6,2,B,0.05
-362,0,8.519864110260698,yes,Crossed,7,7,2,B,0.05
-363,0,8.996631536987811,yes,Crossed,6,6,2,B,0.05
-364,0,-0.9776450368644305,yes,Went back to the sidewalk,4,4,2,B,0.05
-365,0,7.057898629967236,yes,Crossed,6,6,2,B,0.05
-366,0,7.656968482186162,yes,Crossed,14,14,2,B,0.05
-367,0,-0.030698708396047936,yes,Went back to the sidewalk,6,6,2,B,0.05
-368,0,7.591193839434812,yes,Crossed,11,11,2,B,0.05
-369,0,-0.5565854054181818,yes,Went back to the sidewalk,3,3,2,B,0.05
-370,0,-1.4663549134377887,yes,Went back to the sidewalk,8,8,2,B,0.05
-371,0,-1.92167291374732,yes,Went back to the sidewalk,10,10,2,B,0.05
-372,0,-0.4533477680591338,yes,Went back to the sidewalk,5,5,2,B,0.05
-373,0,-0.2035249498019418,yes,Went back to the sidewalk,4,4,2,B,0.05
-374,0,8.289314608364691,yes,Crossed,5,5,2,B,0.05
-375,0,8.063637051817116,yes,Crossed,9,9,2,B,0.05
-376,0,-0.14724138406938425,yes,Went back to the sidewalk,8,8,2,B,0.05
-377,0,1.281489270261929,no,dead: right lane,17,17,2,B,0.05
-378,0,7.759421731928734,yes,Crossed,5,5,2,B,0.05
-379,0,8.938110873730363,yes,Crossed,8,8,2,B,0.05
-380,0,-0.9513636635186753,yes,Went back to the sidewalk,7,7,2,B,0.05
-381,0,8.31712981523279,yes,Crossed,8,8,2,B,0.05
-382,0,-0.41839246715355904,yes,Went back to the sidewalk,4,4,2,B,0.05
-383,0,2.919779701441523,no,dead: right lane,2,2,2,B,0.05
-384,0,7.974031942631805,yes,Crossed,7,7,2,B,0.05
-385,0,6.551939806845949,no,dead: left lane,4,4,2,B,0.05
-386,0,-0.22501950823294847,yes,Went back to the sidewalk,3,3,2,B,0.05
-387,0,7.948001149274357,yes,Crossed,4,4,2,B,0.05
-388,0,-1.2965185545819806,yes,Went back to the sidewalk,5,5,2,B,0.05
-389,0,-0.18382288481497433,yes,Went back to the sidewalk,3,3,2,B,0.05
-390,0,-0.08250483750771109,yes,Went back to the sidewalk,5,5,2,B,0.05
-391,0,7.562168720235222,yes,Crossed,4,4,2,B,0.05
-392,0,8.912557273121928,yes,Crossed,19,19,2,B,0.05
-393,0,7.230913774135496,yes,Crossed,5,5,2,B,0.05
-394,0,-0.4013964194532935,yes,Went back to the sidewalk,3,3,2,B,0.05
-395,0,7.34706583205587,yes,Crossed,9,9,2,B,0.05
-396,0,7.220417969914167,yes,Crossed,15,15,2,B,0.05
-397,0,7.062005538847654,yes,Crossed,25,25,2,B,0.05
-398,0,-0.39939285602163266,yes,Went back to the sidewalk,7,7,2,B,0.05
-399,0,8.254462790367352,yes,Crossed,5,5,2,B,0.05
-400,0,8.036536614645827,yes,Crossed,8,8,2,B,0.05
-401,0,8.011677381612737,yes,Crossed,10,10,2,B,0.05
-402,0,7.556650939739191,yes,Crossed,6,6,2,B,0.05
-403,0,-0.05076248327002986,yes,Went back to the sidewalk,8,8,2,B,0.05
-404,0,-1.0573817684172195,yes,Went back to the sidewalk,9,9,2,B,0.05
-405,0,7.164660927562788,yes,Crossed,12,12,2,B,0.05
-406,0,7.703383380311747,yes,Crossed,7,7,2,B,0.05
-407,0,-1.2364196707260375,yes,Went back to the sidewalk,8,8,2,B,0.05
-408,0,8.781186644737828,yes,Crossed,7,7,2,B,0.05
-409,0,-0.2513645097829216,yes,Went back to the sidewalk,3,3,2,B,0.05
-410,0,7.304502863020479,yes,Crossed,6,6,2,B,0.05
-411,0,-0.9574918197713154,yes,Went back to the sidewalk,4,4,2,B,0.05
-412,0,-0.32010327159314667,yes,Went back to the sidewalk,3,3,2,B,0.05
-413,0,7.191891816634673,yes,Crossed,7,7,2,B,0.05
-414,0,-0.05334676405800631,yes,Went back to the sidewalk,4,4,2,B,0.05
-415,0,8.559920112978253,yes,Crossed,6,6,2,B,0.05
-416,0,7.860008711475254,yes,Crossed,5,5,2,B,0.05
-417,0,7.5313818993111985,yes,Crossed,8,8,2,B,0.05
-418,0,-0.8916961371740464,yes,Went back to the sidewalk,6,6,2,B,0.05
-419,0,8.262814029486847,yes,Crossed,9,9,2,B,0.05
-420,0,1.8860733190535266,no,dead: right lane,7,7,2,B,0.05
-421,0,7.149598832854041,yes,Crossed,6,6,2,B,0.05
-422,0,7.258675887819786,yes,Crossed,5,5,2,B,0.05
-423,0,-0.4835408647680286,yes,Went back to the sidewalk,14,14,2,B,0.05
-424,0,-0.2758019937522611,yes,Went back to the sidewalk,3,3,2,B,0.05
-425,0,7.747512782626182,yes,Crossed,4,4,2,B,0.05
-426,0,7.772876720159115,yes,Crossed,8,8,2,B,0.05
-427,0,-1.1727501600243604,yes,Went back to the sidewalk,4,4,2,B,0.05
-428,0,2.720970504157344,no,dead: right lane,2,2,2,B,0.05
-429,0,-0.2152215445293375,yes,Went back to the sidewalk,9,9,2,B,0.05
-430,0,-0.6713678450016503,yes,Went back to the sidewalk,4,4,2,B,0.05
-431,0,6.093131670617645,no,dead: left lane,4,4,2,B,0.05
-432,0,-0.3118915852894686,yes,Went back to the sidewalk,5,5,2,B,0.05
-433,0,7.918707663858187,yes,Crossed,8,8,2,B,0.05
-434,0,7.68252466982238,yes,Crossed,5,5,2,B,0.05
-435,0,7.417157566042793,yes,Crossed,7,7,2,B,0.05
-436,0,-0.2203011561446806,yes,Went back to the sidewalk,10,10,2,B,0.05
-437,0,-0.7379027016714801,yes,Went back to the sidewalk,3,3,2,B,0.05
-438,0,-1.2159260085097183,yes,Went back to the sidewalk,8,8,2,B,0.05
-439,0,-1.46137040191145,yes,Went back to the sidewalk,7,7,2,B,0.05
-440,0,7.639841697621197,yes,Crossed,8,8,2,B,0.05
-441,0,-0.609056687108172,yes,Went back to the sidewalk,4,4,2,B,0.05
-442,0,-1.0095402507667222,yes,Went back to the sidewalk,7,7,2,B,0.05
-443,0,-0.2909090659415354,yes,Went back to the sidewalk,3,3,2,B,0.05
-444,0,-0.03871745112412972,yes,Went back to the sidewalk,3,3,2,B,0.05
-445,0,-1.6572381913440033,yes,Went back to the sidewalk,11,11,2,B,0.05
-446,0,5.691022824632963,no,dead: left lane,3,3,2,B,0.05
-447,0,2.43590459321502,no,dead: right lane,4,4,2,B,0.05
-448,0,7.727155915689309,yes,Crossed,4,4,2,B,0.05
-449,0,7.124046604695352,yes,Crossed,9,9,2,B,0.05
-450,0,-0.19820831508300962,yes,Went back to the sidewalk,7,7,2,B,0.05
-451,0,7.553518944972755,yes,Crossed,5,5,2,B,0.05
-452,0,8.764272004521214,yes,Crossed,13,13,2,B,0.05
-453,0,7.562690478173493,yes,Crossed,5,5,2,B,0.05
-454,0,2.3178317442032688,no,dead: right lane,5,5,2,B,0.05
-455,0,-0.18718540253138127,yes,Went back to the sidewalk,3,3,2,B,0.05
-456,0,8.632799783067409,yes,Crossed,5,5,2,B,0.05
-457,0,-1.2051648586109267,yes,Went back to the sidewalk,5,5,2,B,0.05
-458,0,8.13691963187767,yes,Crossed,5,5,2,B,0.05
-459,0,2.6106758669933114,no,dead: right lane,7,7,2,B,0.05
-460,0,6.069755041313283,no,dead: left lane,7,7,2,B,0.05
-461,0,1.7808783389850245,no,dead: right lane,2,2,2,B,0.05
-462,0,-0.30961323099549243,yes,Went back to the sidewalk,3,3,2,B,0.05
-463,0,7.205096475077369,yes,Crossed,5,5,2,B,0.05
-464,0,1.3015473828135558,no,dead: right lane,2,2,2,B,0.05
-465,0,-0.27479117784315943,yes,Went back to the sidewalk,10,10,2,B,0.05
-466,0,5.374860080616367,no,dead: left lane,5,5,2,B,0.05
-467,0,-0.46901599973971075,yes,Went back to the sidewalk,5,5,2,B,0.05
-468,0,-0.4892777149238495,yes,Went back to the sidewalk,4,4,2,B,0.05
-469,0,7.29713824977223,yes,Crossed,11,11,2,B,0.05
-470,0,-0.2800947502208395,yes,Went back to the sidewalk,6,6,2,B,0.05
-471,0,-1.6664867188533679,yes,Went back to the sidewalk,4,4,2,B,0.05
-472,0,-0.21178379665985214,yes,Went back to the sidewalk,3,3,2,B,0.05
-473,0,7.154871836351811,yes,Crossed,5,5,2,B,0.05
-474,0,-1.7136487891669359,yes,Went back to the sidewalk,4,4,2,B,0.05
-475,0,6.809136465063655,no,dead: left lane,14,14,2,B,0.05
-476,0,-0.7557195340387306,yes,Went back to the sidewalk,9,9,2,B,0.05
-477,0,7.258397023353197,yes,Crossed,7,7,2,B,0.05
-478,0,-0.2849084028005018,yes,Went back to the sidewalk,9,9,2,B,0.05
-479,0,2.276900210109708,no,dead: right lane,3,3,2,B,0.05
-480,0,-1.1591296071752044,yes,Went back to the sidewalk,9,9,2,B,0.05
-481,0,5.664329966183108,no,dead: left lane,7,7,2,B,0.05
-482,0,-0.5485650646764668,yes,Went back to the sidewalk,10,10,2,B,0.05
-483,0,1.9389229735803546,no,dead: right lane,2,2,2,B,0.05
-484,0,2.8070905927047796,no,dead: right lane,2,2,2,B,0.05
-485,0,-0.08404356326676377,yes,Went back to the sidewalk,22,22,2,B,0.05
-486,0,2.118961196778015,no,dead: right lane,2,2,2,B,0.05
-487,0,-0.08798919095368518,yes,Went back to the sidewalk,3,3,2,B,0.05
-488,0,7.058073053020877,yes,Crossed,6,6,2,B,0.05
-489,0,-0.19552770954390797,yes,Went back to the sidewalk,5,5,2,B,0.05
-490,0,-0.8980230500642854,yes,Went back to the sidewalk,28,28,2,B,0.05
-491,0,-1.5302353789313214,yes,Went back to the sidewalk,10,10,2,B,0.05
-492,0,5.218723261262752,no,dead: left lane,3,3,2,B,0.05
-493,0,2.384404751940902,no,dead: right lane,6,6,2,B,0.05
-494,0,5.36956347124203,no,dead: left lane,4,4,2,B,0.05
-495,0,7.181842650026473,yes,Crossed,7,7,2,B,0.05
-496,0,1.4302960709639416,no,dead: right lane,2,2,2,B,0.05
-497,0,7.773063422619222,yes,Crossed,7,7,2,B,0.05
-498,0,7.450551266785527,yes,Crossed,8,8,2,B,0.05
-499,0,-0.05387167684558958,yes,Went back to the sidewalk,6,6,2,B,0.05
-500,0,7.811328923618257,yes,Crossed,9,9,2,B,0.05
-501,0,-0.283167543306857,yes,Went back to the sidewalk,13,13,2,B,0.05
-502,0,1.2688159372445802,no,dead: right lane,4,4,2,B,0.05
-503,0,8.798241956559947,yes,Crossed,6,6,2,B,0.05
-504,0,8.79093435650163,yes,Crossed,6,6,2,B,0.05
-505,0,7.198916605562779,yes,Crossed,5,5,2,B,0.05
-506,0,2.7437619837905314,no,dead: right lane,5,5,2,B,0.05
-507,0,-0.24400154832494203,yes,Went back to the sidewalk,7,7,2,B,0.05
-508,0,7.439560084482801,yes,Crossed,9,9,2,B,0.05
-509,0,-0.7797289781847327,yes,Went back to the sidewalk,7,7,2,B,0.05
-510,0,8.584183248045772,yes,Crossed,8,8,2,B,0.05
-511,0,7.074981027173624,yes,Crossed,6,6,2,B,0.05
-512,0,-0.7291974184691332,yes,Went back to the sidewalk,3,3,2,B,0.05
-513,0,-0.21694901595599014,yes,Went back to the sidewalk,3,3,2,B,0.05
-514,0,-0.4554837755523715,yes,Went back to the sidewalk,3,3,2,B,0.05
-515,0,5.565985259152235,no,dead: left lane,6,6,2,B,0.05
-516,0,7.362358765593362,yes,Crossed,4,4,2,B,0.05
-517,0,2.7076541952879083,no,dead: right lane,7,7,2,B,0.05
-518,0,5.453030210422355,no,dead: left lane,4,4,2,B,0.05
-519,0,8.058678894673417,yes,Crossed,5,5,2,B,0.05
-520,0,7.6297337152381655,yes,Crossed,9,9,2,B,0.05
-521,0,-1.6547336154908174,yes,Went back to the sidewalk,8,8,2,B,0.05
-522,0,-0.24168199866966256,yes,Went back to the sidewalk,4,4,2,B,0.05
-523,0,7.473523395257367,yes,Crossed,6,6,2,B,0.05
-524,0,-1.685627751761503,yes,Went back to the sidewalk,11,11,2,B,0.05
-525,0,6.081082876019906,no,dead: left lane,10,10,2,B,0.05
-526,0,1.0054463239401081,no,dead: right lane,2,2,2,B,0.05
-527,0,-0.30240795581065205,yes,Went back to the sidewalk,5,5,2,B,0.05
-528,0,-0.6413127729366361,yes,Went back to the sidewalk,10,10,2,B,0.05
-529,0,8.871146427163477,yes,Crossed,7,7,2,B,0.05
-530,0,7.209025042703094,yes,Crossed,12,12,2,B,0.05
-531,0,5.402402550040566,no,dead: left lane,3,3,2,B,0.05
-532,0,1.8131734858524977,no,dead: right lane,2,2,2,B,0.05
-533,0,8.343300852931065,yes,Crossed,5,5,2,B,0.05
-534,0,-1.3525246444806207,yes,Went back to the sidewalk,8,8,2,B,0.05
-535,0,5.507358712974894,no,dead: left lane,8,8,2,B,0.05
-536,0,-0.39140762114409466,yes,Went back to the sidewalk,18,18,2,B,0.05
-537,0,8.226401178788965,yes,Crossed,15,15,2,B,0.05
-538,0,6.433977851352786,no,dead: left lane,4,4,2,B,0.05
-539,0,8.016647173112947,yes,Crossed,7,7,2,B,0.05
-540,0,-0.8414196078035623,yes,Went back to the sidewalk,5,5,2,B,0.05
-541,0,7.80604696451927,yes,Crossed,6,6,2,B,0.05
-542,0,7.429872467170416,yes,Crossed,6,6,2,B,0.05
-543,0,-0.19663922839943582,yes,Went back to the sidewalk,4,4,2,B,0.05
-544,0,5.993489436384492,no,dead: left lane,5,5,2,B,0.05
-545,0,-1.5868826134894316,yes,Went back to the sidewalk,4,4,2,B,0.05
-546,0,7.351101361251045,yes,Crossed,4,4,2,B,0.05
-547,0,-0.09893011822452547,yes,Went back to the sidewalk,10,10,2,B,0.05
-548,0,7.712770763604473,yes,Crossed,5,5,2,B,0.05
-549,0,7.243645015272415,yes,Crossed,5,5,2,B,0.05
-550,0,-1.1447861981288112,yes,Went back to the sidewalk,4,4,2,B,0.05
-551,0,-1.1483230121337449,yes,Went back to the sidewalk,7,7,2,B,0.05
-552,0,7.670430502301231,yes,Crossed,6,6,2,B,0.05
-553,0,7.2983924475377755,yes,Crossed,14,14,2,B,0.05
-554,0,7.149308355769443,yes,Crossed,4,4,2,B,0.05
-555,0,7.46900525003262,yes,Crossed,11,11,2,B,0.05
-556,0,-1.374448205558234,yes,Went back to the sidewalk,6,6,2,B,0.05
-557,0,7.727690384941301,yes,Crossed,6,6,2,B,0.05
-558,0,7.843885343041064,yes,Crossed,4,4,2,B,0.05
-559,0,7.272835068545418,yes,Crossed,7,7,2,B,0.05
-560,0,-0.32844032313693605,yes,Went back to the sidewalk,5,5,2,B,0.05
-561,0,-1.723129874594119,yes,Went back to the sidewalk,5,5,2,B,0.05
-562,0,2.208261456119655,no,dead: right lane,3,3,2,B,0.05
-563,0,5.3206693151116875,no,dead: left lane,9,9,2,B,0.05
-564,0,7.63327465018617,yes,Crossed,4,4,2,B,0.05
-565,0,7.438962072256821,yes,Crossed,12,12,2,B,0.05
-566,0,7.041011446073347,yes,Crossed,11,11,2,B,0.05
-567,0,6.613548093773292,no,dead: left lane,4,4,2,B,0.05
-568,0,-0.5332519624689469,yes,Went back to the sidewalk,3,3,2,B,0.05
-569,0,-0.17976512838077308,yes,Went back to the sidewalk,6,6,2,B,0.05
-570,0,7.760783068014251,yes,Crossed,5,5,2,B,0.05
-571,0,-0.8500785202211092,yes,Went back to the sidewalk,8,8,2,B,0.05
-572,0,-0.3224162992295785,yes,Went back to the sidewalk,4,4,2,B,0.05
-573,0,7.846767176152275,yes,Crossed,9,9,2,B,0.05
-574,0,2.0614259285305048,no,dead: right lane,2,2,2,B,0.05
-575,0,-0.09347056094928585,yes,Went back to the sidewalk,3,3,2,B,0.05
-576,0,8.193405553720568,yes,Crossed,5,5,2,B,0.05
-577,0,5.998670009807354,no,dead: left lane,6,6,2,B,0.05
-578,0,7.994412679096581,yes,Crossed,9,9,2,B,0.05
-579,0,7.975415872943487,yes,Crossed,10,10,2,B,0.05
-580,0,5.094509249384547,no,dead: left lane,9,9,2,B,0.05
-581,0,-0.8767400689072335,yes,Went back to the sidewalk,16,16,2,B,0.05
-582,0,7.191500306625414,yes,Crossed,5,5,2,B,0.05
-583,0,8.123721590010494,yes,Crossed,5,5,2,B,0.05
-584,0,7.369215013195917,yes,Crossed,5,5,2,B,0.05
-585,0,7.5115851317777995,yes,Crossed,9,9,2,B,0.05
-586,0,7.9261346096049285,yes,Crossed,6,6,2,B,0.05
-587,0,7.642670879307382,yes,Crossed,7,7,2,B,0.05
-588,0,8.36726135882882,yes,Crossed,7,7,2,B,0.05
-589,0,1.9905752569212534,no,dead: right lane,2,2,2,B,0.05
-590,0,7.5211359105198206,yes,Crossed,13,13,2,B,0.05
-591,0,-1.3443833442865205,yes,Went back to the sidewalk,7,7,2,B,0.05
-592,0,7.388042902881838,yes,Crossed,5,5,2,B,0.05
-593,0,7.31140061153285,yes,Crossed,4,4,2,B,0.05
-594,0,5.37268731844378,no,dead: left lane,3,3,2,B,0.05
-595,0,-0.915454233441648,yes,Went back to the sidewalk,4,4,2,B,0.05
-596,0,-0.07674951562461163,yes,Went back to the sidewalk,11,11,2,B,0.05
-597,0,5.909831650855589,no,dead: left lane,3,3,2,B,0.05
-598,0,8.304264210537632,yes,Crossed,5,5,2,B,0.05
-599,0,-0.09212360149589416,yes,Went back to the sidewalk,3,3,2,B,0.05
-600,0,-0.7539339820887145,yes,Went back to the sidewalk,4,4,2,B,0.05
-601,0,-1.5148362878189718,yes,Went back to the sidewalk,12,12,2,B,0.05
-602,0,-1.2954274595940292,yes,Went back to the sidewalk,5,5,2,B,0.05
-603,0,-0.10426814688626052,yes,Went back to the sidewalk,5,5,2,B,0.05
-604,0,6.737437672044443,no,dead: left lane,9,9,2,B,0.05
-605,0,-0.9139592252086672,yes,Went back to the sidewalk,8,8,2,B,0.05
-606,0,-0.2674814217627477,yes,Went back to the sidewalk,3,3,2,B,0.05
-607,0,7.03417655398655,yes,Crossed,7,7,2,B,0.05
-608,0,1.0709016690871187,no,dead: right lane,6,6,2,B,0.05
-609,0,-0.3420493809574081,yes,Went back to the sidewalk,4,4,2,B,0.05
-610,0,1.3754670348704237,no,dead: right lane,10,10,2,B,0.05
-611,0,-0.2205162867081789,yes,Went back to the sidewalk,11,11,2,B,0.05
-612,0,5.81071437345099,no,dead: left lane,3,3,2,B,0.05
-613,0,-0.42032808531295673,yes,Went back to the sidewalk,3,3,2,B,0.05
-614,0,7.974055705040083,yes,Crossed,7,7,2,B,0.05
-615,0,-1.4324545324370022,yes,Went back to the sidewalk,4,4,2,B,0.05
-616,0,7.347355663618263,yes,Crossed,4,4,2,B,0.05
-617,0,7.718398613341522,yes,Crossed,5,5,2,B,0.05
-618,0,-0.13279854678286984,yes,Went back to the sidewalk,26,26,2,B,0.05
-619,0,7.6955616199118175,yes,Crossed,7,7,2,B,0.05
-620,0,7.081351906589621,yes,Crossed,4,4,2,B,0.05
-621,0,-0.442188075714822,yes,Went back to the sidewalk,7,7,2,B,0.05
-622,0,-1.2194372458084357,yes,Went back to the sidewalk,4,4,2,B,0.05
-623,0,2.8471765176188537,no,dead: right lane,14,14,2,B,0.05
-624,0,7.253663305012796,yes,Crossed,5,5,2,B,0.05
-625,0,6.508639627360001,no,dead: left lane,5,5,2,B,0.05
-626,0,-1.0197027246052792,yes,Went back to the sidewalk,8,8,2,B,0.05
-627,0,7.918851002207919,yes,Crossed,7,7,2,B,0.05
-628,0,6.07284329777003,no,dead: left lane,9,9,2,B,0.05
-629,0,7.600458165467952,yes,Crossed,4,4,2,B,0.05
-630,0,-0.9414027629512003,yes,Went back to the sidewalk,12,12,2,B,0.05
-631,0,7.5219097546368765,yes,Crossed,6,6,2,B,0.05
-632,0,-0.7000132196764294,yes,Went back to the sidewalk,4,4,2,B,0.05
-633,0,-0.8843481210012665,yes,Went back to the sidewalk,8,8,2,B,0.05
-634,0,-1.8935683014058222,yes,Went back to the sidewalk,4,4,2,B,0.05
-635,0,8.022957481352378,yes,Crossed,5,5,2,B,0.05
-636,0,-1.1678646737586265,yes,Went back to the sidewalk,4,4,2,B,0.05
-637,0,7.315334423927991,yes,Crossed,4,4,2,B,0.05
-638,0,7.64222984830096,yes,Crossed,14,14,2,B,0.05
-639,0,2.3559167477264005,no,dead: right lane,4,4,2,B,0.05
-640,0,6.061213377958111,no,dead: left lane,16,16,2,B,0.05
-641,0,-0.4976780482040264,yes,Went back to the sidewalk,5,5,2,B,0.05
-642,0,-0.24642546603180748,yes,Went back to the sidewalk,3,3,2,B,0.05
-643,0,8.073267840762126,yes,Crossed,7,7,2,B,0.05
-644,0,8.309557329378311,yes,Crossed,9,9,2,B,0.05
-645,0,1.4776430556912021,no,dead: right lane,2,2,2,B,0.05
-646,0,7.006556456618787,yes,Crossed,5,5,2,B,0.05
-647,0,7.15270200351679,yes,Crossed,6,6,2,B,0.05
-648,0,2.6320527221650254,no,dead: right lane,5,5,2,B,0.05
-649,0,5.394107865948779,no,dead: left lane,4,4,2,B,0.05
-650,0,-1.058437275039095,yes,Went back to the sidewalk,7,7,2,B,0.05
-651,0,-1.4483337536012812,yes,Went back to the sidewalk,5,5,2,B,0.05
-652,0,-0.09532221248774975,yes,Went back to the sidewalk,4,4,2,B,0.05
-653,0,2.1565615242256646,no,dead: right lane,6,6,2,B,0.05
-654,0,5.040902483963178,no,dead: left lane,4,4,2,B,0.05
-655,0,5.537864321425121,no,dead: left lane,4,4,2,B,0.05
-656,0,7.714566314017582,yes,Crossed,9,9,2,B,0.05
-657,0,2.9747604902029696,no,dead: right lane,5,5,2,B,0.05
-658,0,5.184346669042694,no,dead: left lane,17,17,2,B,0.05
-659,0,7.158282190774093,yes,Crossed,5,5,2,B,0.05
-660,0,7.445758637190032,yes,Crossed,7,7,2,B,0.05
-661,0,-1.1564220081203862,yes,Went back to the sidewalk,4,4,2,B,0.05
-662,0,2.341217720152134,no,dead: right lane,5,5,2,B,0.05
-663,0,7.653874355293817,yes,Crossed,5,5,2,B,0.05
-664,0,8.338258482509541,yes,Crossed,7,7,2,B,0.05
-665,0,7.7768635009945095,yes,Crossed,5,5,2,B,0.05
-666,0,-0.984957159448667,yes,Went back to the sidewalk,5,5,2,B,0.05
-667,0,7.060897027238584,yes,Crossed,10,10,2,B,0.05
-668,0,7.865589195818416,yes,Crossed,6,6,2,B,0.05
-669,0,-1.1250853628477007,yes,Went back to the sidewalk,12,12,2,B,0.05
-670,0,7.339177916850398,yes,Crossed,7,7,2,B,0.05
-671,0,7.398684277014536,yes,Crossed,5,5,2,B,0.05
-672,0,8.246230907134096,yes,Crossed,5,5,2,B,0.05
-673,0,5.515288153440085,no,dead: left lane,5,5,2,B,0.05
-674,0,7.703861448508246,yes,Crossed,9,9,2,B,0.05
-675,0,-1.461971917924993,yes,Went back to the sidewalk,7,7,2,B,0.05
-676,0,-0.5945124028326443,yes,Went back to the sidewalk,3,3,2,B,0.05
-677,0,2.7304035237831767,no,dead: right lane,2,2,2,B,0.05
-678,0,7.348336041637375,yes,Crossed,5,5,2,B,0.05
-679,0,2.475575092212086,no,dead: right lane,5,5,2,B,0.05
-680,0,-1.520869616294904,yes,Went back to the sidewalk,4,4,2,B,0.05
-681,0,8.165348376975192,yes,Crossed,5,5,2,B,0.05
-682,0,-0.22937021250655398,yes,Went back to the sidewalk,13,13,2,B,0.05
-683,0,7.014814978485113,yes,Crossed,9,9,2,B,0.05
-684,0,-1.4964656849838878,yes,Went back to the sidewalk,9,9,2,B,0.05
-685,0,7.190724962060301,yes,Crossed,18,18,2,B,0.05
-686,0,7.168034613980797,yes,Crossed,7,7,2,B,0.05
-687,0,-0.12581845546583859,yes,Went back to the sidewalk,14,14,2,B,0.05
-688,0,1.0208498640991122,no,dead: right lane,3,3,2,B,0.05
-689,0,7.782478494742508,yes,Crossed,7,7,2,B,0.05
-690,0,1.5110774161672669,no,dead: right lane,2,2,2,B,0.05
-691,0,-0.33655087497517666,yes,Went back to the sidewalk,3,3,2,B,0.05
-692,0,-1.8698675257979456,yes,Went back to the sidewalk,6,6,2,B,0.05
-693,0,7.519478355044868,yes,Crossed,11,11,2,B,0.05
-694,0,-0.5146294426775107,yes,Went back to the sidewalk,3,3,2,B,0.05
-695,0,-0.2019867515617122,yes,Went back to the sidewalk,4,4,2,B,0.05
-696,0,-0.4907024802431694,yes,Went back to the sidewalk,7,7,2,B,0.05
-697,0,-1.4318880179396323,yes,Went back to the sidewalk,6,6,2,B,0.05
-698,0,-0.12075987134362265,yes,Went back to the sidewalk,5,5,2,B,0.05
-699,0,-1.5311255973542583,yes,Went back to the sidewalk,8,8,2,B,0.05
-700,0,2.788388331874253,no,dead: right lane,3,3,2,B,0.05
-701,0,2.2073210789969098,no,dead: right lane,2,2,2,B,0.05
-702,0,7.050602943720579,yes,Crossed,6,6,2,B,0.05
-703,0,8.385561630246098,yes,Crossed,7,7,2,B,0.05
-704,0,-0.983941362022771,yes,Went back to the sidewalk,12,12,2,B,0.05
-705,0,1.4786539771269007,no,dead: right lane,2,2,2,B,0.05
-706,0,7.1404871514353285,yes,Crossed,6,6,2,B,0.05
-707,0,-1.6537668839437352,yes,Went back to the sidewalk,9,9,2,B,0.05
-708,0,7.35514108869712,yes,Crossed,5,5,2,B,0.05
-709,0,6.045325517631065,no,dead: left lane,5,5,2,B,0.05
-710,0,-0.08214054308340435,yes,Went back to the sidewalk,3,3,2,B,0.05
-711,0,5.586886212915763,no,dead: left lane,9,9,2,B,0.05
-712,0,-0.038798671126739626,yes,Went back to the sidewalk,5,5,2,B,0.05
-713,0,-0.02052142376389776,yes,Went back to the sidewalk,4,4,2,B,0.05
-714,0,7.032813559722837,yes,Crossed,7,7,2,B,0.05
-715,0,-1.6978767479105752,yes,Went back to the sidewalk,14,14,2,B,0.05
-716,0,-0.842962586400793,yes,Went back to the sidewalk,3,3,2,B,0.05
-717,0,-1.5531017888950236,yes,Went back to the sidewalk,10,10,2,B,0.05
-718,0,8.581040954347461,yes,Crossed,5,5,2,B,0.05
-719,0,-0.026153392649875595,yes,Went back to the sidewalk,3,3,2,B,0.05
-720,0,-1.3016177374409421,yes,Went back to the sidewalk,4,4,2,B,0.05
-721,0,5.982452320620359,no,dead: left lane,5,5,2,B,0.05
-722,0,-0.1935576248870019,yes,Went back to the sidewalk,3,3,2,B,0.05
-723,0,8.225217566188235,yes,Crossed,6,6,2,B,0.05
-724,0,7.97033391284415,yes,Crossed,7,7,2,B,0.05
-725,0,-0.09858788433807719,yes,Went back to the sidewalk,3,3,2,B,0.05
-726,0,-1.395439991511833,yes,Went back to the sidewalk,4,4,2,B,0.05
-727,0,2.7431667480198696,no,dead: right lane,18,18,2,B,0.05
-728,0,-0.6363154225191932,yes,Went back to the sidewalk,5,5,2,B,0.05
-729,0,7.105702003923292,yes,Crossed,5,5,2,B,0.05
-730,0,2.45024222114887,no,dead: right lane,2,2,2,B,0.05
-731,0,-0.24416931607977355,yes,Went back to the sidewalk,3,3,2,B,0.05
-732,0,1.3533428071262288,no,dead: right lane,3,3,2,B,0.05
-733,0,2.044630365334601,no,dead: right lane,3,3,2,B,0.05
-734,0,-0.3206765423901152,yes,Went back to the sidewalk,9,9,2,B,0.05
-735,0,-0.7320863617801407,yes,Went back to the sidewalk,3,3,2,B,0.05
-736,0,7.250070325941068,yes,Crossed,4,4,2,B,0.05
-737,0,-1.3796966312972982,yes,Went back to the sidewalk,9,9,2,B,0.05
-738,0,7.107812930904453,yes,Crossed,4,4,2,B,0.05
-739,0,5.3940502415274505,no,dead: left lane,3,3,2,B,0.05
-740,0,-0.17993928398509795,yes,Went back to the sidewalk,3,3,2,B,0.05
-741,0,-1.8248146963311924,yes,Went back to the sidewalk,4,4,2,B,0.05
-742,0,-1.1572307740156815,yes,Went back to the sidewalk,8,8,2,B,0.05
-743,0,8.370284909346028,yes,Crossed,8,8,2,B,0.05
-744,0,7.473912768628609,yes,Crossed,4,4,2,B,0.05
-745,0,-1.0095784874127147,yes,Went back to the sidewalk,16,16,2,B,0.05
-746,0,-0.08120237361695537,yes,Went back to the sidewalk,9,9,2,B,0.05
-747,0,-1.410637459731272,yes,Went back to the sidewalk,8,8,2,B,0.05
-748,0,2.4045490954352347,no,dead: right lane,2,2,2,B,0.05
-749,0,7.418345646534443,yes,Crossed,11,11,2,B,0.05
-750,0,7.2049604126043505,yes,Crossed,5,5,2,B,0.05
-751,0,7.046548041180959,yes,Crossed,5,5,2,B,0.05
-752,0,1.8454297288531758,no,dead: right lane,3,3,2,B,0.05
-753,0,7.0251214362104815,yes,Crossed,8,8,2,B,0.05
-754,0,8.668611720132196,yes,Crossed,9,9,2,B,0.05
-755,0,-1.1038691359906156,yes,Went back to the sidewalk,4,4,2,B,0.05
-756,0,-0.08537551267050025,yes,Went back to the sidewalk,3,3,2,B,0.05
-757,0,-1.5624209453309925,yes,Went back to the sidewalk,7,7,2,B,0.05
-758,0,-1.051993430226628,yes,Went back to the sidewalk,14,14,2,B,0.05
-759,0,7.844560665523074,yes,Crossed,5,5,2,B,0.05
-760,0,7.0444621662896365,yes,Crossed,9,9,2,B,0.05
-761,0,2.455002350799552,no,dead: right lane,2,2,2,B,0.05
-762,0,5.567976133414216,no,dead: left lane,3,3,2,B,0.05
-763,0,7.873247950865566,yes,Crossed,7,7,2,B,0.05
-764,0,5.266170781638736,no,dead: left lane,4,4,2,B,0.05
-765,0,7.567332395971674,yes,Crossed,7,7,2,B,0.05
-766,0,-0.4041928887717179,yes,Went back to the sidewalk,5,5,2,B,0.05
-767,0,-0.24596525007710546,yes,Went back to the sidewalk,3,3,2,B,0.05
-768,0,1.0110365404133344,no,dead: right lane,4,4,2,B,0.05
-769,0,2.1913440433021165,no,dead: right lane,2,2,2,B,0.05
-770,0,-1.4470151182743625,yes,Went back to the sidewalk,7,7,2,B,0.05
-771,0,8.525015699460742,yes,Crossed,7,7,2,B,0.05
-772,0,-1.0403044353212032,yes,Went back to the sidewalk,7,7,2,B,0.05
-773,0,7.49011530490313,yes,Crossed,11,11,2,B,0.05
-774,0,-1.5542288248775404,yes,Went back to the sidewalk,7,7,2,B,0.05
-775,0,7.157269217214778,yes,Crossed,5,5,2,B,0.05
-776,0,-1.107790400850459,yes,Went back to the sidewalk,4,4,2,B,0.05
-777,0,6.4893016251332565,no,dead: left lane,5,5,2,B,0.05
-778,0,-1.6964724177794508,yes,Went back to the sidewalk,14,14,2,B,0.05
-779,0,7.687326360385687,yes,Crossed,5,5,2,B,0.05
-780,0,7.658682801252244,yes,Crossed,4,4,2,B,0.05
-781,0,-0.9601807959856543,yes,Went back to the sidewalk,5,5,2,B,0.05
-782,0,7.315733542281887,yes,Crossed,5,5,2,B,0.05
-783,0,-0.32132387798328355,yes,Went back to the sidewalk,4,4,2,B,0.05
-784,0,8.805590737697266,yes,Crossed,14,14,2,B,0.05
-785,0,-1.0039961149195082,yes,Went back to the sidewalk,10,10,2,B,0.05
-786,0,6.266184528671608,no,dead: left lane,5,5,2,B,0.05
-787,0,8.499343962267911,yes,Crossed,5,5,2,B,0.05
-788,0,7.981619734479671,yes,Crossed,5,5,2,B,0.05
-789,0,7.666518553394196,yes,Crossed,7,7,2,B,0.05
-790,0,-0.0985797789290439,yes,Went back to the sidewalk,3,3,2,B,0.05
-791,0,7.342455373078039,yes,Crossed,5,5,2,B,0.05
-792,0,7.018785690565382,yes,Crossed,6,6,2,B,0.05
-793,0,1.7569542559580074,no,dead: right lane,2,2,2,B,0.05
-794,0,7.248413556530614,yes,Crossed,10,10,2,B,0.05
-795,0,7.007578889515949,yes,Crossed,16,16,2,B,0.05
-796,0,-0.11480889479355105,yes,Went back to the sidewalk,3,3,2,B,0.05
-797,0,7.228961853534855,yes,Crossed,5,5,2,B,0.05
-798,0,7.375042813409621,yes,Crossed,4,4,2,B,0.05
-799,0,7.842193726278144,yes,Crossed,5,5,2,B,0.05
-800,0,6.511507727408089,no,dead: left lane,6,6,2,B,0.05
-801,0,6.701536319234526,no,dead: left lane,4,4,2,B,0.05
-802,0,8.749493056437753,yes,Crossed,7,7,2,B,0.05
-803,0,-0.35265113152901884,yes,Went back to the sidewalk,7,7,2,B,0.05
-804,0,6.12514183087938,no,dead: left lane,4,4,2,B,0.05
-805,0,-1.0481394715482646,yes,Went back to the sidewalk,4,4,2,B,0.05
-806,0,1.0478507376619959,no,dead: right lane,3,3,2,B,0.05
-807,0,-0.3662532430135301,yes,Went back to the sidewalk,3,3,2,B,0.05
-808,0,-0.9868652012840364,yes,Went back to the sidewalk,3,3,2,B,0.05
-809,0,-1.9619249479091976,yes,Went back to the sidewalk,9,9,2,B,0.05
-810,0,-1.584025803244804,yes,Went back to the sidewalk,7,7,2,B,0.05
-811,0,-0.16705649782039167,yes,Went back to the sidewalk,17,17,2,B,0.05
-812,0,7.553888955373892,yes,Crossed,11,11,2,B,0.05
-813,0,7.1338443667359455,yes,Crossed,5,5,2,B,0.05
-814,0,8.278771147051241,yes,Crossed,6,6,2,B,0.05
-815,0,5.369303913796204,no,dead: left lane,8,8,2,B,0.05
-816,0,8.268185099954044,yes,Crossed,13,13,2,B,0.05
-817,0,8.663893178729266,yes,Crossed,17,17,2,B,0.05
-818,0,8.94479620713336,yes,Crossed,5,5,2,B,0.05
-819,0,-1.374762953510079,yes,Went back to the sidewalk,5,5,2,B,0.05
-820,0,8.46347574686863,yes,Crossed,7,7,2,B,0.05
-821,0,7.4921545382426595,yes,Crossed,4,4,2,B,0.05
-822,0,8.372661067527941,yes,Crossed,7,7,2,B,0.05
-823,0,7.0962094301369305,yes,Crossed,6,6,2,B,0.05
-824,0,-1.0735995511926375,yes,Went back to the sidewalk,5,5,2,B,0.05
-825,0,-0.2791934917077643,yes,Went back to the sidewalk,3,3,2,B,0.05
-826,0,7.933621673362403,yes,Crossed,19,19,2,B,0.05
-827,0,-0.7689105587878291,yes,Went back to the sidewalk,7,7,2,B,0.05
-828,0,8.634263343308085,yes,Crossed,7,7,2,B,0.05
-829,0,7.556077022005094,yes,Crossed,9,9,2,B,0.05
-830,0,7.656943460885145,yes,Crossed,5,5,2,B,0.05
-831,0,2.2302210499919743,no,dead: right lane,2,2,2,B,0.05
-832,0,-0.8633297858241944,yes,Went back to the sidewalk,3,3,2,B,0.05
-833,0,-1.332775792847851,yes,Went back to the sidewalk,8,8,2,B,0.05
-834,0,7.36592582220173,yes,Crossed,13,13,2,B,0.05
-835,0,1.0512089505321418,no,dead: right lane,2,2,2,B,0.05
-836,0,-0.8132379367418665,yes,Went back to the sidewalk,8,8,2,B,0.05
-837,0,7.1216731130723305,yes,Crossed,4,4,2,B,0.05
-838,0,7.485934512491234,yes,Crossed,9,9,2,B,0.05
-839,0,-0.9272491701865688,yes,Went back to the sidewalk,3,3,2,B,0.05
-840,0,7.049344305554979,yes,Crossed,7,7,2,B,0.05
-841,0,7.454302247990447,yes,Crossed,7,7,2,B,0.05
-842,0,8.143461221180772,yes,Crossed,5,5,2,B,0.05
-843,0,8.15646943922766,yes,Crossed,5,5,2,B,0.05
-844,0,2.5142655863093917,no,dead: right lane,2,2,2,B,0.05
-845,0,-0.35020446402803285,yes,Went back to the sidewalk,3,3,2,B,0.05
-846,0,-0.6419838750689257,yes,Went back to the sidewalk,4,4,2,B,0.05
-847,0,-1.288580538883266,yes,Went back to the sidewalk,4,4,2,B,0.05
-848,0,-0.4508378431182548,yes,Went back to the sidewalk,10,10,2,B,0.05
-849,0,5.639614670012124,no,dead: left lane,22,22,2,B,0.05
-850,0,-0.8456295965631369,yes,Went back to the sidewalk,9,9,2,B,0.05
-851,0,7.115832889655296,yes,Crossed,13,13,2,B,0.05
-852,0,7.759330818492021,yes,Crossed,7,7,2,B,0.05
-853,0,8.117426359622351,yes,Crossed,10,10,2,B,0.05
-854,0,7.758036758191767,yes,Crossed,4,4,2,B,0.05
-855,0,8.174693992714557,yes,Crossed,5,5,2,B,0.05
-856,0,-0.7455795175998602,yes,Went back to the sidewalk,5,5,2,B,0.05
-857,0,-1.2195665897869201,yes,Went back to the sidewalk,11,11,2,B,0.05
-858,0,-0.855907672315886,yes,Went back to the sidewalk,3,3,2,B,0.05
-859,0,1.641583315301966,no,dead: right lane,7,7,2,B,0.05
-860,0,6.041994308982934,no,dead: left lane,6,6,2,B,0.05
-861,0,8.223841174137965,yes,Crossed,13,13,2,B,0.05
-862,0,5.895569681486956,no,dead: left lane,4,4,2,B,0.05
-863,0,1.5793977335206195,no,dead: right lane,2,2,2,B,0.05
-864,0,7.105120328600405,yes,Crossed,10,10,2,B,0.05
-865,0,7.349251882839882,yes,Crossed,5,5,2,B,0.05
-866,0,-0.0959226911148634,yes,Went back to the sidewalk,3,3,2,B,0.05
-867,0,-0.47577230501520673,yes,Went back to the sidewalk,3,3,2,B,0.05
-868,0,7.789891925049595,yes,Crossed,6,6,2,B,0.05
-869,0,-0.565630085413876,yes,Went back to the sidewalk,10,10,2,B,0.05
-870,0,-0.42809348238551403,yes,Went back to the sidewalk,4,4,2,B,0.05
-871,0,7.156020119542053,yes,Crossed,5,5,2,B,0.05
-872,0,-0.9025499317052672,yes,Went back to the sidewalk,5,5,2,B,0.05
-873,0,-0.3430970014082593,yes,Went back to the sidewalk,6,6,2,B,0.05
-874,0,5.555598236543059,no,dead: left lane,4,4,2,B,0.05
-875,0,1.3980173284631265,no,dead: right lane,6,6,2,B,0.05
-876,0,-0.6626084442877342,yes,Went back to the sidewalk,3,3,2,B,0.05
-877,0,8.480764533923,yes,Crossed,7,7,2,B,0.05
-878,0,-0.6628349752565921,yes,Went back to the sidewalk,8,8,2,B,0.05
-879,0,6.374489320662217,no,dead: left lane,8,8,2,B,0.05
-880,0,5.957623491520867,no,dead: left lane,4,4,2,B,0.05
-881,0,-0.20169145084404083,yes,Went back to the sidewalk,5,5,2,B,0.05
-882,0,7.05552836647561,yes,Crossed,7,7,2,B,0.05
-883,0,-1.031360174155664,yes,Went back to the sidewalk,8,8,2,B,0.05
-884,0,7.754620856431039,yes,Crossed,7,7,2,B,0.05
-885,0,2.273440250389972,no,dead: right lane,6,6,2,B,0.05
-886,0,5.1264291786223755,no,dead: left lane,3,3,2,B,0.05
-887,0,-0.054789130842734846,yes,Went back to the sidewalk,11,11,2,B,0.05
-888,0,7.6657137847987284,yes,Crossed,13,13,2,B,0.05
-889,0,7.049540539402499,yes,Crossed,7,7,2,B,0.05
-890,0,2.873826440643197,no,dead: right lane,4,4,2,B,0.05
-891,0,-0.7527310960540223,yes,Went back to the sidewalk,4,4,2,B,0.05
-892,0,-0.7338552253764401,yes,Went back to the sidewalk,5,5,2,B,0.05
-893,0,-0.6883253613727129,yes,Went back to the sidewalk,3,3,2,B,0.05
-894,0,-0.5326426610469372,yes,Went back to the sidewalk,5,5,2,B,0.05
-895,0,-0.5072834112803402,yes,Went back to the sidewalk,6,6,2,B,0.05
-896,0,7.327512746348869,yes,Crossed,5,5,2,B,0.05
-897,0,5.294439013488807,no,dead: left lane,3,3,2,B,0.05
-898,0,7.786684038689925,yes,Crossed,5,5,2,B,0.05
-899,0,7.403467366223936,yes,Crossed,5,5,2,B,0.05
-900,0,-0.6628739785326321,yes,Went back to the sidewalk,23,23,2,B,0.05
-901,0,5.133772047200084,no,dead: left lane,6,6,2,B,0.05
-902,0,7.835470123257457,yes,Crossed,8,8,2,B,0.05
-903,0,7.99107263276481,yes,Crossed,6,6,2,B,0.05
-904,0,8.389635534630717,yes,Crossed,5,5,2,B,0.05
-905,0,-0.9175650059723317,yes,Went back to the sidewalk,4,4,2,B,0.05
-906,0,7.970065643921116,yes,Crossed,12,12,2,B,0.05
-907,0,7.87966169159756,yes,Crossed,7,7,2,B,0.05
-908,0,-1.117195852068273,yes,Went back to the sidewalk,13,13,2,B,0.05
-909,0,8.441029379887249,yes,Crossed,5,5,2,B,0.05
-910,0,-0.7198224787504761,yes,Went back to the sidewalk,4,4,2,B,0.05
-911,0,7.919769739293957,yes,Crossed,5,5,2,B,0.05
-912,0,7.8883714886730365,yes,Crossed,4,4,2,B,0.05
-913,0,5.95253690005036,no,dead: left lane,3,3,2,B,0.05
-914,0,7.9159043440793395,yes,Crossed,6,6,2,B,0.05
-915,0,6.77176321687137,no,dead: left lane,6,6,2,B,0.05
-916,0,7.402111530238336,yes,Crossed,8,8,2,B,0.05
-917,0,7.175930457465039,yes,Crossed,8,8,2,B,0.05
-918,0,7.635393902339726,yes,Crossed,12,12,2,B,0.05
-919,0,7.05275554529328,yes,Crossed,5,5,2,B,0.05
-920,0,-0.2881671717256391,yes,Went back to the sidewalk,3,3,2,B,0.05
-921,0,-0.6622177194782468,yes,Went back to the sidewalk,3,3,2,B,0.05
-922,0,-1.6338150720492768,yes,Went back to the sidewalk,4,4,2,B,0.05
-923,0,7.212945345275321,yes,Crossed,9,9,2,B,0.05
-924,0,5.664605007706583,no,dead: left lane,9,9,2,B,0.05
-925,0,-0.37811566150921383,yes,Went back to the sidewalk,6,6,2,B,0.05
-926,0,7.214286203172947,yes,Crossed,4,4,2,B,0.05
-927,0,-1.257876678339,yes,Went back to the sidewalk,14,14,2,B,0.05
-928,0,8.105640458314047,yes,Crossed,10,10,2,B,0.05
-929,0,-0.5913191251807088,yes,Went back to the sidewalk,6,6,2,B,0.05
-930,0,6.02860330191055,no,dead: left lane,8,8,2,B,0.05
-931,0,2.091423383739936,no,dead: right lane,2,2,2,B,0.05
-932,0,8.720312650623937,yes,Crossed,5,5,2,B,0.05
-933,0,-1.2225043064287002,yes,Went back to the sidewalk,7,7,2,B,0.05
-934,0,7.276256650527428,yes,Crossed,5,5,2,B,0.05
-935,0,-1.4678981521355416,yes,Went back to the sidewalk,10,10,2,B,0.05
-936,0,7.365758692272103,yes,Crossed,4,4,2,B,0.05
-937,0,7.541972513829995,yes,Crossed,5,5,2,B,0.05
-938,0,5.813564012694858,no,dead: left lane,4,4,2,B,0.05
-939,0,5.6365386793775505,no,dead: left lane,6,6,2,B,0.05
-940,0,7.517024672530192,yes,Crossed,5,5,2,B,0.05
-941,0,7.733383260193275,yes,Crossed,5,5,2,B,0.05
-942,0,-0.20619760923326735,yes,Went back to the sidewalk,4,4,2,B,0.05
-943,0,7.571420375805711,yes,Crossed,5,5,2,B,0.05
-944,0,6.464820221747235,no,dead: left lane,4,4,2,B,0.05
-945,0,1.4713972206619226,no,dead: right lane,8,8,2,B,0.05
-946,0,-1.3404216897976413,yes,Went back to the sidewalk,7,7,2,B,0.05
-947,0,-0.2165793321658911,yes,Went back to the sidewalk,3,3,2,B,0.05
-948,0,7.898113353979559,yes,Crossed,5,5,2,B,0.05
-949,0,1.8371666813870435,no,dead: right lane,2,2,2,B,0.05
-950,0,-0.035959541772841774,yes,Went back to the sidewalk,8,8,2,B,0.05
-951,0,7.383171210212971,yes,Crossed,4,4,2,B,0.05
-952,0,8.822589680499298,yes,Crossed,6,6,2,B,0.05
-953,0,-0.6309703211475843,yes,Went back to the sidewalk,6,6,2,B,0.05
-954,0,-0.05622586380624628,yes,Went back to the sidewalk,10,10,2,B,0.05
-955,0,8.386007867428848,yes,Crossed,10,10,2,B,0.05
-956,0,-1.307532970130498,yes,Went back to the sidewalk,6,6,2,B,0.05
-957,0,6.206812962816823,no,dead: left lane,5,5,2,B,0.05
-958,0,-0.155772682399836,yes,Went back to the sidewalk,3,3,2,B,0.05
-959,0,7.58414286904984,yes,Crossed,5,5,2,B,0.05
-960,0,7.545511698033777,yes,Crossed,8,8,2,B,0.05
-961,0,5.2756232628251105,no,dead: left lane,3,3,2,B,0.05
-962,0,-0.1528234922513554,yes,Went back to the sidewalk,8,8,2,B,0.05
-963,0,-0.8776034282779083,yes,Went back to the sidewalk,9,9,2,B,0.05
-964,0,-0.5330656094389741,yes,Went back to the sidewalk,10,10,2,B,0.05
-965,0,7.406482183272822,yes,Crossed,4,4,2,B,0.05
-966,0,-0.3489085440943862,yes,Went back to the sidewalk,8,8,2,B,0.05
-967,0,7.714005701620199,yes,Crossed,8,8,2,B,0.05
-968,0,-1.8249530885178167,yes,Went back to the sidewalk,8,8,2,B,0.05
-969,0,8.212397671875198,yes,Crossed,6,6,2,B,0.05
-970,0,1.385286764400386,no,dead: right lane,2,2,2,B,0.05
-971,0,5.413130182654028,no,dead: left lane,4,4,2,B,0.05
-972,0,-0.2550031085038642,yes,Went back to the sidewalk,5,5,2,B,0.05
-973,0,-0.9557100196923805,yes,Went back to the sidewalk,3,3,2,B,0.05
-974,0,1.1653079346349107,no,dead: right lane,10,10,2,B,0.05
-975,0,-0.25195750244104514,yes,Went back to the sidewalk,11,11,2,B,0.05
-976,0,8.880744897013445,yes,Crossed,5,5,2,B,0.05
-977,0,7.582621394034893,yes,Crossed,7,7,2,B,0.05
-978,0,-0.9499539846006282,yes,Went back to the sidewalk,8,8,2,B,0.05
-979,0,7.473125578120479,yes,Crossed,4,4,2,B,0.05
-980,0,5.206563487403925,no,dead: left lane,12,12,2,B,0.05
-981,0,-1.613414992171012,yes,Went back to the sidewalk,15,15,2,B,0.05
-982,0,5.4759536572999785,no,dead: left lane,5,5,2,B,0.05
-983,0,7.513612550702488,yes,Crossed,6,6,2,B,0.05
-984,0,7.256974930014917,yes,Crossed,5,5,2,B,0.05
-985,0,7.7011552806079155,yes,Crossed,7,7,2,B,0.05
-986,0,1.2787039104477196,no,dead: right lane,2,2,2,B,0.05
-987,0,8.004322619491132,yes,Crossed,6,6,2,B,0.05
-988,0,8.849719838007175,yes,Crossed,5,5,2,B,0.05
-989,0,-1.3084146188540735,yes,Went back to the sidewalk,4,4,2,B,0.05
-990,0,8.16456536620112,yes,Crossed,7,7,2,B,0.05
-991,0,-0.32925519439948103,yes,Went back to the sidewalk,14,14,2,B,0.05
-992,0,2.8948938837139897,no,dead: right lane,2,2,2,B,0.05
-993,0,7.338568570960706,yes,Crossed,8,8,2,B,0.05
-994,0,7.3178964311447725,yes,Crossed,5,5,2,B,0.05
-995,0,1.9989930763683204,no,dead: right lane,3,3,2,B,0.05
-996,0,-1.9171264894853128,yes,Went back to the sidewalk,4,4,2,B,0.05
-997,0,-1.4657315468942034,yes,Went back to the sidewalk,11,11,2,B,0.05
-998,0,7.130955027249366,yes,Crossed,15,15,2,B,0.05
-999,0,-0.10228778323098298,yes,Went back to the sidewalk,3,3,2,B,0.05
+0,0,-1.5614584105476492,yes,Went back to the sidewalk,4,4,2,B,0.05
+1,0,6.348970813824346,no,dead,4,4,2,B,0.05
+2,0,7.796608140543621,yes,Crossed,21,21,2,B,0.05
+3,0,-0.8898299422111673,yes,Went back to the sidewalk,4,4,2,B,0.05
+4,0,-0.5814523403327104,yes,Went back to the sidewalk,5,5,2,B,0.05
+5,0,-0.8024199160087426,yes,Went back to the sidewalk,4,4,2,B,0.05
+6,0,1.557243402846716,no,dead,2,2,2,B,0.05
+7,0,-1.3375812350221934,yes,Went back to the sidewalk,5,5,2,B,0.05
+8,0,-0.6999382155305942,yes,Went back to the sidewalk,6,6,2,B,0.05
+9,0,7.321348462752141,yes,Crossed,7,7,2,B,0.05
+10,0,-0.6475588457980805,yes,Went back to the sidewalk,6,6,2,B,0.05
+11,0,-1.2970236188764446,yes,Went back to the sidewalk,16,16,2,B,0.05
+12,0,1.3590947291811017,no,dead,3,3,2,B,0.05
+13,0,-0.09823063362799367,yes,Went back to the sidewalk,3,3,2,B,0.05
+14,0,7.21170135244399,yes,Crossed,5,5,2,B,0.05
+15,0,-0.06782671439911447,yes,Went back to the sidewalk,3,3,2,B,0.05
+16,0,8.529041805858617,yes,Crossed,6,6,2,B,0.05
+17,0,-1.0799147317778892,yes,Went back to the sidewalk,9,9,2,B,0.05
+18,0,7.579893279860193,yes,Crossed,6,6,2,B,0.05
+19,0,5.346117902185224,no,dead,8,8,2,B,0.05
+20,0,-0.9660641733183346,yes,Went back to the sidewalk,8,8,2,B,0.05
+21,0,2.804218118561072,no,dead,3,3,2,B,0.05
+22,0,8.431671052648431,yes,Crossed,8,8,2,B,0.05
+23,0,8.239062442394022,yes,Crossed,6,6,2,B,0.05
+24,0,-0.2108919894779766,yes,Went back to the sidewalk,3,3,2,B,0.05
+25,0,7.063837538300175,yes,Crossed,4,4,2,B,0.05
+26,0,2.5517018079853457,no,dead,9,9,2,B,0.05
+27,0,7.358925044344723,yes,Crossed,4,4,2,B,0.05
+28,0,7.921153093020086,yes,Crossed,6,6,2,B,0.05
+29,0,-0.7793023025994241,yes,Went back to the sidewalk,7,7,2,B,0.05
+30,0,1.5976990361066432,no,dead,3,3,2,B,0.05
+31,0,7.962836397291595,yes,Crossed,7,7,2,B,0.05
+32,0,8.048113869003457,yes,Crossed,5,5,2,B,0.05
+33,0,-0.6573418075580222,yes,Went back to the sidewalk,12,12,2,B,0.05
+34,0,7.18851704699488,yes,Crossed,11,11,2,B,0.05
+35,0,7.931125942071602,yes,Crossed,8,8,2,B,0.05
+36,0,-0.7329723027485284,yes,Went back to the sidewalk,4,4,2,B,0.05
+37,0,-0.17855876348278854,yes,Went back to the sidewalk,5,5,2,B,0.05
+38,0,8.318863842489083,yes,Crossed,7,7,2,B,0.05
+39,0,-0.43875165662351123,yes,Went back to the sidewalk,3,3,2,B,0.05
+40,0,-0.49785340386494714,yes,Went back to the sidewalk,4,4,2,B,0.05
+41,0,7.916674959858527,yes,Crossed,4,4,2,B,0.05
+42,0,-0.15872559349342474,yes,Went back to the sidewalk,4,4,2,B,0.05
+43,0,-0.13136254704158318,yes,Went back to the sidewalk,6,6,2,B,0.05
+44,0,-0.4919736612504435,yes,Went back to the sidewalk,4,4,2,B,0.05
+45,0,6.246374714179881,no,dead,5,5,2,B,0.05
+46,0,8.27609616976501,yes,Crossed,6,6,2,B,0.05
+47,0,2.8565551887598364,no,dead,16,16,2,B,0.05
+48,0,1.8514908228432052,no,dead,3,3,2,B,0.05
+49,0,1.2153257667928772,no,dead,2,2,2,B,0.05
+50,0,1.927152073121937,no,dead,7,7,2,B,0.05
+51,0,2.095607591721513,no,dead,2,2,2,B,0.05
+52,0,8.5417969613591,yes,Crossed,11,11,2,B,0.05
+53,0,7.883110230197995,yes,Crossed,8,8,2,B,0.05
+54,0,7.582499979169078,yes,Crossed,5,5,2,B,0.05
+55,0,7.944933092966733,yes,Crossed,4,4,2,B,0.05
+56,0,5.612835587923588,no,dead,9,9,2,B,0.05
+57,0,-0.2925753227430017,yes,Went back to the sidewalk,13,13,2,B,0.05
+58,0,5.254968316745832,no,dead,3,3,2,B,0.05
+59,0,-1.254437908353614,yes,Went back to the sidewalk,5,5,2,B,0.05
+60,0,-0.8629833727809382,yes,Went back to the sidewalk,7,7,2,B,0.05
+61,0,8.15862039314067,yes,Crossed,9,9,2,B,0.05
+62,0,8.55350965435864,yes,Crossed,10,10,2,B,0.05
+63,0,-0.24685735045206458,yes,Went back to the sidewalk,6,6,2,B,0.05
+64,0,-1.1134913499872179,yes,Went back to the sidewalk,13,13,2,B,0.05
+65,0,1.337710679207526,no,dead,4,4,2,B,0.05
+66,0,7.519514408957548,yes,Crossed,4,4,2,B,0.05
+67,0,-1.079461020872362,yes,Went back to the sidewalk,5,5,2,B,0.05
+68,0,5.1505683208506845,no,dead,3,3,2,B,0.05
+69,0,1.8180395921928587,no,dead,2,2,2,B,0.05
+70,0,-0.08143376722417717,yes,Went back to the sidewalk,5,5,2,B,0.05
+71,0,7.074385314398936,yes,Crossed,4,4,2,B,0.05
+72,0,7.034695276950323,yes,Crossed,6,6,2,B,0.05
+73,0,-0.04932026550388219,yes,Went back to the sidewalk,6,6,2,B,0.05
+74,0,-0.4674494190647964,yes,Went back to the sidewalk,3,3,2,B,0.05
+75,0,-0.9396629031276869,yes,Went back to the sidewalk,10,10,2,B,0.05
+76,0,-0.05888060661447564,yes,Went back to the sidewalk,14,14,2,B,0.05
+77,0,7.069697358542085,yes,Crossed,5,5,2,B,0.05
+78,0,-0.44426356515770316,yes,Went back to the sidewalk,3,3,2,B,0.05
+79,0,-0.30763203395302474,yes,Went back to the sidewalk,4,4,2,B,0.05
+80,0,-0.06644889016737765,yes,Went back to the sidewalk,3,3,2,B,0.05
+81,0,-0.5413361055853823,yes,Went back to the sidewalk,3,3,2,B,0.05
+82,0,7.127833748331204,yes,Crossed,6,6,2,B,0.05
+83,0,7.563057042596956,yes,Crossed,16,16,2,B,0.05
+84,0,7.910646595996338,yes,Crossed,5,5,2,B,0.05
+85,0,-1.4272426532079392,yes,Went back to the sidewalk,16,16,2,B,0.05
+86,0,7.086193278176543,yes,Crossed,6,6,2,B,0.05
+87,0,-0.2578541511282846,yes,Went back to the sidewalk,4,4,2,B,0.05
+88,0,-0.10034222596558395,yes,Went back to the sidewalk,9,9,2,B,0.05
+89,0,7.720321712383395,yes,Crossed,4,4,2,B,0.05
+90,0,1.1119267356696796,no,dead,4,4,2,B,0.05
+91,0,7.046944906233167,yes,Crossed,4,4,2,B,0.05
+92,0,7.465365260828717,yes,Crossed,4,4,2,B,0.05
+93,0,-0.8393136194133146,yes,Went back to the sidewalk,11,11,2,B,0.05
+94,0,-0.13703542471692876,yes,Went back to the sidewalk,4,4,2,B,0.05
+95,0,-0.06336039655869996,yes,Went back to the sidewalk,3,3,2,B,0.05
+96,0,8.194012889154106,yes,Crossed,5,5,2,B,0.05
+97,0,8.331292546395327,yes,Crossed,7,7,2,B,0.05
+98,0,-0.740500065705612,yes,Went back to the sidewalk,12,12,2,B,0.05
+99,0,6.130811709454859,no,dead,6,6,2,B,0.05
+100,0,-1.5542321727519004,yes,Went back to the sidewalk,5,5,2,B,0.05
+101,0,-1.5045618709398187,yes,Went back to the sidewalk,11,11,2,B,0.05
+102,0,7.042993056882562,yes,Crossed,4,4,2,B,0.05
+103,0,6.582216979638849,no,dead,5,5,2,B,0.05
+104,0,2.7241100986703204,no,dead,4,4,2,B,0.05
+105,0,7.091528283818429,yes,Crossed,9,9,2,B,0.05
+106,0,1.7628454566460448,no,dead,2,2,2,B,0.05
+107,0,-0.2130305930197074,yes,Went back to the sidewalk,3,3,2,B,0.05
+108,0,7.015820786867225,yes,Crossed,6,6,2,B,0.05
+109,0,5.168004887037632,no,dead,21,21,2,B,0.05
+110,0,8.504844335564476,yes,Crossed,6,6,2,B,0.05
+111,0,8.004463316509561,yes,Crossed,10,10,2,B,0.05
+112,0,7.5794897871239995,yes,Crossed,6,6,2,B,0.05
+113,0,7.722928866805686,yes,Crossed,7,7,2,B,0.05
+114,0,8.636334019530958,yes,Crossed,5,5,2,B,0.05
+115,0,-1.3310696412055893,yes,Went back to the sidewalk,5,5,2,B,0.05
+116,0,2.340762965391515,no,dead,2,2,2,B,0.05
+117,0,-0.9820763944638955,yes,Went back to the sidewalk,4,4,2,B,0.05
+118,0,8.049615879248242,yes,Crossed,9,9,2,B,0.05
+119,0,-0.8930324716224995,yes,Went back to the sidewalk,4,4,2,B,0.05
+120,0,-0.07361446686021922,yes,Went back to the sidewalk,4,4,2,B,0.05
+121,0,-0.9934388232047526,yes,Went back to the sidewalk,9,9,2,B,0.05
+122,0,-0.32784251551978194,yes,Went back to the sidewalk,5,5,2,B,0.05
+123,0,1.0539757010396693,no,dead,2,2,2,B,0.05
+124,0,7.439288749736255,yes,Crossed,5,5,2,B,0.05
+125,0,2.17834899622229,no,dead,4,4,2,B,0.05
+126,0,1.945802233296628,no,dead,7,7,2,B,0.05
+127,0,7.032133150471023,yes,Crossed,6,6,2,B,0.05
+128,0,2.734479357480361,no,dead,6,6,2,B,0.05
+129,0,-0.8283442169916744,yes,Went back to the sidewalk,5,5,2,B,0.05
+130,0,8.008837725273587,yes,Crossed,6,6,2,B,0.05
+131,0,7.621456937499301,yes,Crossed,4,4,2,B,0.05
+132,0,7.5165080691375294,yes,Crossed,5,5,2,B,0.05
+133,0,7.936074509015095,yes,Crossed,5,5,2,B,0.05
+134,0,6.4928954745000995,no,dead,8,8,2,B,0.05
+135,0,-0.9149952857202264,yes,Went back to the sidewalk,8,8,2,B,0.05
+136,0,7.472586425281239,yes,Crossed,5,5,2,B,0.05
+137,0,-0.7455205432841681,yes,Went back to the sidewalk,6,6,2,B,0.05
+138,0,7.907623054620363,yes,Crossed,19,19,2,B,0.05
+139,0,-0.10152082234195192,yes,Went back to the sidewalk,4,4,2,B,0.05
+140,0,-1.180836628522615,yes,Went back to the sidewalk,9,9,2,B,0.05
+141,0,5.446593833871068,no,dead,10,10,2,B,0.05
+142,0,-0.9742991506140202,yes,Went back to the sidewalk,4,4,2,B,0.05
+143,0,8.071975268726039,yes,Crossed,5,5,2,B,0.05
+144,0,-0.6583428426491487,yes,Went back to the sidewalk,4,4,2,B,0.05
+145,0,-0.21744259379972264,yes,Went back to the sidewalk,9,9,2,B,0.05
+146,0,-1.670700413445376,yes,Went back to the sidewalk,11,11,2,B,0.05
+147,0,-0.8896506234066447,yes,Went back to the sidewalk,8,8,2,B,0.05
+148,0,-0.23678395572651234,yes,Went back to the sidewalk,5,5,2,B,0.05
+149,0,7.612396302296588,yes,Crossed,5,5,2,B,0.05
+150,0,2.2383837686085486,no,dead,3,3,2,B,0.05
+151,0,7.365137591167574,yes,Crossed,9,9,2,B,0.05
+152,0,7.221389388975368,yes,Crossed,6,6,2,B,0.05
+153,0,8.267623487453196,yes,Crossed,7,7,2,B,0.05
+154,0,1.1455998705861057,no,dead,2,2,2,B,0.05
+155,0,-0.0025961074897142833,yes,Went back to the sidewalk,6,6,2,B,0.05
+156,0,8.345252855624361,yes,Crossed,10,10,2,B,0.05
+157,0,7.84610591623937,yes,Crossed,5,5,2,B,0.05
+158,0,-0.41830297194334654,yes,Went back to the sidewalk,4,4,2,B,0.05
+159,0,-0.0447999314730243,yes,Went back to the sidewalk,4,4,2,B,0.05
+160,0,-1.116176935427538,yes,Went back to the sidewalk,8,8,2,B,0.05
+161,0,7.77759768788243,yes,Crossed,7,7,2,B,0.05
+162,0,8.004185033179025,yes,Crossed,11,11,2,B,0.05
+163,0,2.5243783572817295,no,dead,2,2,2,B,0.05
+164,0,-0.9180029815016981,yes,Went back to the sidewalk,9,9,2,B,0.05
+165,0,-0.29794583755026777,yes,Went back to the sidewalk,8,8,2,B,0.05
+166,0,-1.3987974120075477,yes,Went back to the sidewalk,10,10,2,B,0.05
+167,0,-0.13991842675651345,yes,Went back to the sidewalk,9,9,2,B,0.05
+168,0,-0.9786048543808452,yes,Went back to the sidewalk,10,10,2,B,0.05
+169,0,-0.025197292362394874,yes,Went back to the sidewalk,3,3,2,B,0.05
+170,0,1.888988980455835,no,dead,4,4,2,B,0.05
+171,0,-0.18603486864109164,yes,Went back to the sidewalk,7,7,2,B,0.05
+172,0,-0.7331894565358137,yes,Went back to the sidewalk,4,4,2,B,0.05
+173,0,1.4995701878010639,no,dead,4,4,2,B,0.05
+174,0,5.0302129004421285,no,dead,8,8,2,B,0.05
+175,0,-0.05472681747802155,yes,Went back to the sidewalk,3,3,2,B,0.05
+176,0,-0.024059396265639466,yes,Went back to the sidewalk,5,5,2,B,0.05
+177,0,5.807305665631961,no,dead,4,4,2,B,0.05
+178,0,-0.4458048955160385,yes,Went back to the sidewalk,4,4,2,B,0.05
+179,0,7.569953154566711,yes,Crossed,5,5,2,B,0.05
+180,0,8.069309481184522,yes,Crossed,12,12,2,B,0.05
+181,0,8.03726421460931,yes,Crossed,6,6,2,B,0.05
+182,0,-0.8357570579496998,yes,Went back to the sidewalk,3,3,2,B,0.05
+183,0,7.089748804247475,yes,Crossed,7,7,2,B,0.05
+184,0,8.282953198800627,yes,Crossed,8,8,2,B,0.05
+185,0,6.09537566258258,no,dead,4,4,2,B,0.05
+186,0,8.02016768339457,yes,Crossed,6,6,2,B,0.05
+187,0,2.655425256391167,no,dead,2,2,2,B,0.05
+188,0,-1.6338108828029365,yes,Went back to the sidewalk,4,4,2,B,0.05
+189,0,7.062576930177102,yes,Crossed,5,5,2,B,0.05
+190,0,2.677390901595244,no,dead,8,8,2,B,0.05
+191,0,-0.12562824539780915,yes,Went back to the sidewalk,4,4,2,B,0.05
+192,0,2.399077921009909,no,dead,2,2,2,B,0.05
+193,0,2.1603978486577176,no,dead,2,2,2,B,0.05
+194,0,8.627222236329105,yes,Crossed,6,6,2,B,0.05
+195,0,7.918954810673512,yes,Crossed,5,5,2,B,0.05
+196,0,5.429065581736165,no,dead,3,3,2,B,0.05
+197,0,-0.22097775570569977,yes,Went back to the sidewalk,15,15,2,B,0.05
+198,0,7.4335090838816535,yes,Crossed,15,15,2,B,0.05
+199,0,5.15585843328877,no,dead,7,7,2,B,0.05
+200,0,8.937830283476831,yes,Crossed,7,7,2,B,0.05
+201,0,-0.37534891677624893,yes,Went back to the sidewalk,3,3,2,B,0.05
+202,0,7.4574379938991955,yes,Crossed,11,11,2,B,0.05
+203,0,5.166879886581445,no,dead,4,4,2,B,0.05
+204,0,8.10580305449112,yes,Crossed,9,9,2,B,0.05
+205,0,5.295317285215743,no,dead,4,4,2,B,0.05
+206,0,8.120576501781613,yes,Crossed,5,5,2,B,0.05
+207,0,2.166312138889566,no,dead,2,2,2,B,0.05
+208,0,-1.7956825730976125,yes,Went back to the sidewalk,4,4,2,B,0.05
+209,0,8.194603214538006,yes,Crossed,5,5,2,B,0.05
+210,0,-0.919222285197385,yes,Went back to the sidewalk,13,13,2,B,0.05
+211,0,-0.4945590614993043,yes,Went back to the sidewalk,3,3,2,B,0.05
+212,0,-0.016020836668447558,yes,Went back to the sidewalk,3,3,2,B,0.05
+213,0,-1.1738343543371141,yes,Went back to the sidewalk,7,7,2,B,0.05
+214,0,5.004756642540014,no,dead,7,7,2,B,0.05
+215,0,-0.6009893635759802,yes,Went back to the sidewalk,3,3,2,B,0.05
+216,0,7.8888420136590565,yes,Crossed,5,5,2,B,0.05
+217,0,1.2551270365329896,no,dead,7,7,2,B,0.05
+218,0,7.166651621830334,yes,Crossed,6,6,2,B,0.05
+219,0,-0.8933903335280691,yes,Went back to the sidewalk,7,7,2,B,0.05
+220,0,7.060275135655283,yes,Crossed,7,7,2,B,0.05
+221,0,-0.5902698056508593,yes,Went back to the sidewalk,3,3,2,B,0.05
+222,0,2.904970689963293,no,dead,4,4,2,B,0.05
+223,0,-1.6242064232229871,yes,Went back to the sidewalk,16,16,2,B,0.05
+224,0,-0.3708770065805699,yes,Went back to the sidewalk,6,6,2,B,0.05
+225,0,7.95934673004968,yes,Crossed,8,8,2,B,0.05
+226,0,5.537718185600297,no,dead,3,3,2,B,0.05
+227,0,6.085832089621656,no,dead,8,8,2,B,0.05
+228,0,8.700971857162369,yes,Crossed,11,11,2,B,0.05
+229,0,7.13768386521044,yes,Crossed,9,9,2,B,0.05
+230,0,-0.19154329668826064,yes,Went back to the sidewalk,3,3,2,B,0.05
+231,0,8.687649015045837,yes,Crossed,5,5,2,B,0.05
+232,0,-1.2881258458954996,yes,Went back to the sidewalk,6,6,2,B,0.05
+233,0,8.283096457622953,yes,Crossed,5,5,2,B,0.05
+234,0,1.9409475362621915,no,dead,7,7,2,B,0.05
+235,0,7.434121538483311,yes,Crossed,7,7,2,B,0.05
+236,0,6.69806207309194,no,dead,5,5,2,B,0.05
+237,0,7.253035924607541,yes,Crossed,4,4,2,B,0.05
+238,0,7.843448092618375,yes,Crossed,5,5,2,B,0.05
+239,0,8.912666755691719,yes,Crossed,5,5,2,B,0.05
+240,0,7.168337018216771,yes,Crossed,9,9,2,B,0.05
+241,0,8.398670963294842,yes,Crossed,33,33,2,B,0.05
+242,0,1.0105990882474445,no,dead,2,2,2,B,0.05
+243,0,-0.3080583706162797,yes,Went back to the sidewalk,5,5,2,B,0.05
+244,0,-0.8134594439032794,yes,Went back to the sidewalk,4,4,2,B,0.05
+245,0,-0.5681901342903093,yes,Went back to the sidewalk,9,9,2,B,0.05
+246,0,-0.42081991076418257,yes,Went back to the sidewalk,23,23,2,B,0.05
+247,0,7.206859543322559,yes,Crossed,5,5,2,B,0.05
+248,0,7.59313128863264,yes,Crossed,12,12,2,B,0.05
+249,0,7.629115826801961,yes,Crossed,9,9,2,B,0.05
+250,0,-0.5396498924617001,yes,Went back to the sidewalk,7,7,2,B,0.05
+251,0,8.356541334209101,yes,Crossed,13,13,2,B,0.05
+252,0,-0.40370514644566,yes,Went back to the sidewalk,13,13,2,B,0.05
+253,0,2.7767525474782997,no,dead,6,6,2,B,0.05
+254,0,-0.859076273704475,yes,Went back to the sidewalk,6,6,2,B,0.05
+255,0,8.317711266398996,yes,Crossed,6,6,2,B,0.05
+256,0,-1.7831435015775867,yes,Went back to the sidewalk,7,7,2,B,0.05
+257,0,-0.32144503792980617,yes,Went back to the sidewalk,7,7,2,B,0.05
+258,0,-0.05628160715615094,yes,Went back to the sidewalk,22,22,2,B,0.05
+259,0,-1.722523242959102,yes,Went back to the sidewalk,6,6,2,B,0.05
+260,0,-0.27276607230771566,yes,Went back to the sidewalk,8,8,2,B,0.05
+261,0,-0.19909733076118252,yes,Went back to the sidewalk,5,5,2,B,0.05
+262,0,2.464369847615399,no,dead,4,4,2,B,0.05
+263,0,-0.7626043517345964,yes,Went back to the sidewalk,7,7,2,B,0.05
+264,0,7.561471148519229,yes,Crossed,7,7,2,B,0.05
+265,0,1.7713613230341734,no,dead,5,5,2,B,0.05
+266,0,7.234534427263789,yes,Crossed,4,4,2,B,0.05
+267,0,7.720274647976826,yes,Crossed,5,5,2,B,0.05
+268,0,-0.1336729736883689,yes,Went back to the sidewalk,4,4,2,B,0.05
+269,0,5.5941937364429215,no,dead,3,3,2,B,0.05
+270,0,-0.09160007183204358,yes,Went back to the sidewalk,9,9,2,B,0.05
+271,0,-0.0839718719763003,yes,Went back to the sidewalk,9,9,2,B,0.05
+272,0,6.59676167273345,no,dead,7,7,2,B,0.05
+273,0,-0.6702353335750182,yes,Went back to the sidewalk,4,4,2,B,0.05
+274,0,7.72690358800546,yes,Crossed,9,9,2,B,0.05
+275,0,-0.0006679358744732244,yes,Went back to the sidewalk,3,3,2,B,0.05
+276,0,-1.0185091791827925,yes,Went back to the sidewalk,5,5,2,B,0.05
+277,0,-0.11690181221380014,yes,Went back to the sidewalk,5,5,2,B,0.05
+278,0,7.635918120630296,yes,Crossed,6,6,2,B,0.05
+279,0,-1.1945474786549046,yes,Went back to the sidewalk,12,12,2,B,0.05
+280,0,7.550894093077871,yes,Crossed,12,12,2,B,0.05
+281,0,7.629580530219427,yes,Crossed,11,11,2,B,0.05
+282,0,2.5123849962955807,no,dead,5,5,2,B,0.05
+283,0,-1.197756188549846,yes,Went back to the sidewalk,4,4,2,B,0.05
+284,0,-0.2135127923678133,yes,Went back to the sidewalk,3,3,2,B,0.05
+285,0,-0.5148219042266686,yes,Went back to the sidewalk,10,10,2,B,0.05
+286,0,-0.20649150571314845,yes,Went back to the sidewalk,7,7,2,B,0.05
+287,0,8.184039274255966,yes,Crossed,16,16,2,B,0.05
+288,0,7.888063172269594,yes,Crossed,18,18,2,B,0.05
+289,0,7.3639532611239265,yes,Crossed,15,15,2,B,0.05
+290,0,7.305224144858686,yes,Crossed,4,4,2,B,0.05
+291,0,8.333646915455583,yes,Crossed,6,6,2,B,0.05
+292,0,8.580684601567237,yes,Crossed,11,11,2,B,0.05
+293,0,-1.1475477659989246,yes,Went back to the sidewalk,5,5,2,B,0.05
+294,0,5.360865863232784,no,dead,5,5,2,B,0.05
+295,0,-0.06578181217078738,yes,Went back to the sidewalk,8,8,2,B,0.05
+296,0,2.5637477132390645,no,dead,3,3,2,B,0.05
+297,0,-0.482747379766187,yes,Went back to the sidewalk,3,3,2,B,0.05
+298,0,-0.14067881932200832,yes,Went back to the sidewalk,3,3,2,B,0.05
+299,0,5.413358432911554,no,dead,3,3,2,B,0.05
+300,0,6.281198695496338,no,dead,5,5,2,B,0.05
+301,0,7.629919633529786,yes,Crossed,4,4,2,B,0.05
+302,0,7.9680706163735175,yes,Crossed,6,6,2,B,0.05
+303,0,7.178016392200259,yes,Crossed,5,5,2,B,0.05
+304,0,8.66877807239914,yes,Crossed,5,5,2,B,0.05
+305,0,1.0406926979317692,no,dead,3,3,2,B,0.05
+306,0,1.9902261950919509,no,dead,2,2,2,B,0.05
+307,0,8.745765772660013,yes,Crossed,7,7,2,B,0.05
+308,0,2.2205094655287843,no,dead,2,2,2,B,0.05
+309,0,-0.5164461456947662,yes,Went back to the sidewalk,7,7,2,B,0.05
+310,0,-1.6177761883808646,yes,Went back to the sidewalk,5,5,2,B,0.05
+311,0,2.541555081312475,no,dead,3,3,2,B,0.05
+312,0,6.130846158478596,no,dead,7,7,2,B,0.05
+313,0,1.2261367697067893,no,dead,4,4,2,B,0.05
+314,0,8.468272187650166,yes,Crossed,5,5,2,B,0.05
+315,0,7.906785426361855,yes,Crossed,6,6,2,B,0.05
+316,0,8.271971179882467,yes,Crossed,11,11,2,B,0.05
+317,0,7.27561094935206,yes,Crossed,5,5,2,B,0.05
+318,0,1.364200636895649,no,dead,4,4,2,B,0.05
+319,0,7.953370792584597,yes,Crossed,6,6,2,B,0.05
+320,0,-0.06307069262555354,yes,Went back to the sidewalk,4,4,2,B,0.05
+321,0,7.122162212797981,yes,Crossed,11,11,2,B,0.05
+322,0,-1.571972119344481,yes,Went back to the sidewalk,4,4,2,B,0.05
+323,0,5.634174789331835,no,dead,6,6,2,B,0.05
+324,0,7.6115054385698695,yes,Crossed,5,5,2,B,0.05
+325,0,-0.8036459639363713,yes,Went back to the sidewalk,5,5,2,B,0.05
+326,0,6.119426664367756,no,dead,4,4,2,B,0.05
+327,0,-0.5200391970811047,yes,Went back to the sidewalk,3,3,2,B,0.05
+328,0,-0.35968538285413865,yes,Went back to the sidewalk,11,11,2,B,0.05
+329,0,7.874758932668982,yes,Crossed,5,5,2,B,0.05
+330,0,-0.8136504625190242,yes,Went back to the sidewalk,3,3,2,B,0.05
+331,0,7.916554670522752,yes,Crossed,5,5,2,B,0.05
+332,0,6.63920177784088,no,dead,11,11,2,B,0.05
+333,0,5.171078221691429,no,dead,4,4,2,B,0.05
+334,0,-0.1365753451080287,yes,Went back to the sidewalk,3,3,2,B,0.05
+335,0,1.4032509319754796,no,dead,2,2,2,B,0.05
+336,0,-0.7736909088991966,yes,Went back to the sidewalk,8,8,2,B,0.05
+337,0,7.472433230034041,yes,Crossed,5,5,2,B,0.05
+338,0,7.966397869920472,yes,Crossed,5,5,2,B,0.05
+339,0,7.015814041992127,yes,Crossed,5,5,2,B,0.05
+340,0,-0.3122760803493476,yes,Went back to the sidewalk,10,10,2,B,0.05
+341,0,1.5546807923085546,no,dead,11,11,2,B,0.05
+342,0,-0.9890499210015746,yes,Went back to the sidewalk,5,5,2,B,0.05
+343,0,7.275080014697508,yes,Crossed,4,4,2,B,0.05
+344,0,5.311547354769248,no,dead,4,4,2,B,0.05
+345,0,-0.8150558915807626,yes,Went back to the sidewalk,10,10,2,B,0.05
+346,0,6.255411004078328,no,dead,4,4,2,B,0.05
+347,0,-0.23430919895712332,yes,Went back to the sidewalk,8,8,2,B,0.05
+348,0,-0.07777285941471623,yes,Went back to the sidewalk,3,3,2,B,0.05
+349,0,-1.3367669704092084,yes,Went back to the sidewalk,4,4,2,B,0.05
+350,0,5.297560573174297,no,dead,26,26,2,B,0.05
+351,0,7.034775512229859,yes,Crossed,9,9,2,B,0.05
+352,0,7.135969040149514,yes,Crossed,9,9,2,B,0.05
+353,0,8.062619312394757,yes,Crossed,5,5,2,B,0.05
+354,0,-1.0473210731729747,yes,Went back to the sidewalk,6,6,2,B,0.05
+355,0,1.0297702188486115,no,dead,2,2,2,B,0.05
+356,0,-0.17806044575233626,yes,Went back to the sidewalk,6,6,2,B,0.05
+357,0,2.549261147943715,no,dead,2,2,2,B,0.05
+358,0,2.2920483017187965,no,dead,6,6,2,B,0.05
+359,0,8.133719602112961,yes,Crossed,30,30,2,B,0.05
+360,0,7.188667941828849,yes,Crossed,16,16,2,B,0.05
+361,0,-0.73455981117934,yes,Went back to the sidewalk,9,9,2,B,0.05
+362,0,1.654422590467545,no,dead,2,2,2,B,0.05
+363,0,7.559784535873099,yes,Crossed,5,5,2,B,0.05
+364,0,-0.48117103606696765,yes,Went back to the sidewalk,3,3,2,B,0.05
+365,0,-0.02054605412614463,yes,Went back to the sidewalk,3,3,2,B,0.05
+366,0,-0.37559017726675625,yes,Went back to the sidewalk,14,14,2,B,0.05
+367,0,7.1868660752233415,yes,Crossed,4,4,2,B,0.05
+368,0,6.2323630014834785,no,dead,4,4,2,B,0.05
+369,0,7.651690463060453,yes,Crossed,5,5,2,B,0.05
+370,0,-0.6020383402970721,yes,Went back to the sidewalk,9,9,2,B,0.05
+371,0,1.0054463239401081,no,dead,2,2,2,B,0.05
+372,0,-0.43644546770810844,yes,Went back to the sidewalk,20,20,2,B,0.05
+373,0,2.092788600993269,no,dead,3,3,2,B,0.05
+374,0,-0.1341832739546973,yes,Went back to the sidewalk,17,17,2,B,0.05
+375,0,8.392876227168278,yes,Crossed,6,6,2,B,0.05
+376,0,2.906114382263457,no,dead,2,2,2,B,0.05
+377,0,-0.5235905563783092,yes,Went back to the sidewalk,3,3,2,B,0.05
+378,0,5.062625950411597,no,dead,4,4,2,B,0.05
+379,0,1.135513716621971,no,dead,2,2,2,B,0.05
+380,0,1.3786471407385363,no,dead,2,2,2,B,0.05
+381,0,5.063629772477721,no,dead,12,12,2,B,0.05
+382,0,6.028228557061967,no,dead,7,7,2,B,0.05
+383,0,7.2796879317846095,yes,Crossed,11,11,2,B,0.05
+384,0,5.474944178385789,no,dead,6,6,2,B,0.05
+385,0,5.366686747518212,no,dead,9,9,2,B,0.05
+386,0,-0.2785002060407227,yes,Went back to the sidewalk,5,5,2,B,0.05
+387,0,-1.0588662011553935,yes,Went back to the sidewalk,17,17,2,B,0.05
+388,0,7.6540154163106005,yes,Crossed,7,7,2,B,0.05
+389,0,7.357431893716691,yes,Crossed,6,6,2,B,0.05
+390,0,7.197075477521416,yes,Crossed,8,8,2,B,0.05
+391,0,7.121279006704329,yes,Crossed,7,7,2,B,0.05
+392,0,5.699510394946836,no,dead,3,3,2,B,0.05
+393,0,7.5336450643559605,yes,Crossed,20,20,2,B,0.05
+394,0,5.335927130241958,no,dead,4,4,2,B,0.05
+395,0,-0.5207042223153169,yes,Went back to the sidewalk,7,7,2,B,0.05
+396,0,8.663788974999562,yes,Crossed,7,7,2,B,0.05
+397,0,7.299674418860931,yes,Crossed,4,4,2,B,0.05
+398,0,-1.2284401244672332,yes,Went back to the sidewalk,7,7,2,B,0.05
+399,0,2.3118345824287108,no,dead,2,2,2,B,0.05
+400,0,7.1232340662593305,yes,Crossed,6,6,2,B,0.05
+401,0,-0.6583962604599214,yes,Went back to the sidewalk,3,3,2,B,0.05
+402,0,-0.10956861780728167,yes,Went back to the sidewalk,9,9,2,B,0.05
+403,0,-0.8770439391714568,yes,Went back to the sidewalk,20,20,2,B,0.05
+404,0,-1.8181125827358091,yes,Went back to the sidewalk,5,5,2,B,0.05
+405,0,7.225643994245896,yes,Crossed,5,5,2,B,0.05
+406,0,-0.7240183101426563,yes,Went back to the sidewalk,3,3,2,B,0.05
+407,0,-1.2901599113473488,yes,Went back to the sidewalk,4,4,2,B,0.05
+408,0,8.096601797333975,yes,Crossed,21,21,2,B,0.05
+409,0,7.511884941734301,yes,Crossed,4,4,2,B,0.05
+410,0,-0.3856520217942132,yes,Went back to the sidewalk,3,3,2,B,0.05
+411,0,8.103363498338748,yes,Crossed,5,5,2,B,0.05
+412,0,7.153700643236333,yes,Crossed,16,16,2,B,0.05
+413,0,8.561826575220508,yes,Crossed,5,5,2,B,0.05
+414,0,2.779120726278565,no,dead,3,3,2,B,0.05
+415,0,8.005752996903151,yes,Crossed,6,6,2,B,0.05
+416,0,-0.003547416826551464,yes,Went back to the sidewalk,3,3,2,B,0.05
+417,0,8.145773941947759,yes,Crossed,8,8,2,B,0.05
+418,0,-0.05719520209767803,yes,Went back to the sidewalk,11,11,2,B,0.05
+419,0,2.6534461601079617,no,dead,2,2,2,B,0.05
+420,0,1.9396692442020569,no,dead,6,6,2,B,0.05
+421,0,-0.10589845871486347,yes,Went back to the sidewalk,4,4,2,B,0.05
+422,0,-0.2791417992126053,yes,Went back to the sidewalk,15,15,2,B,0.05
+423,0,-0.09473053882994198,yes,Went back to the sidewalk,3,3,2,B,0.05
+424,0,7.97629114443657,yes,Crossed,10,10,2,B,0.05
+425,0,7.738445002823878,yes,Crossed,15,15,2,B,0.05
+426,0,1.7012876093052747,no,dead,3,3,2,B,0.05
+427,0,7.1401587357824,yes,Crossed,6,6,2,B,0.05
+428,0,8.037968141713572,yes,Crossed,6,6,2,B,0.05
+429,0,2.957158203799893,no,dead,9,9,2,B,0.05
+430,0,-0.9008231625447172,yes,Went back to the sidewalk,7,7,2,B,0.05
+431,0,8.268689414576187,yes,Crossed,6,6,2,B,0.05
+432,0,-0.4112295878697221,yes,Went back to the sidewalk,16,16,2,B,0.05
+433,0,1.6668066891912836,no,dead,2,2,2,B,0.05
+434,0,-0.7820777259582113,yes,Went back to the sidewalk,6,6,2,B,0.05
+435,0,-0.3785344599705116,yes,Went back to the sidewalk,4,4,2,B,0.05
+436,0,5.369962262097788,no,dead,3,3,2,B,0.05
+437,0,-1.2821918605472522,yes,Went back to the sidewalk,7,7,2,B,0.05
+438,0,7.608585351068641,yes,Crossed,5,5,2,B,0.05
+439,0,2.5537714904000772,no,dead,10,10,2,B,0.05
+440,0,1.8452023193010674,no,dead,6,6,2,B,0.05
+441,0,8.448069252057923,yes,Crossed,9,9,2,B,0.05
+442,0,7.264796290460667,yes,Crossed,9,9,2,B,0.05
+443,0,-0.48743267245050803,yes,Went back to the sidewalk,3,3,2,B,0.05
+444,0,7.036443640322383,yes,Crossed,6,6,2,B,0.05
+445,0,2.966564766510004,no,dead,2,2,2,B,0.05
+446,0,-0.626173596331383,yes,Went back to the sidewalk,4,4,2,B,0.05
+447,0,-0.14975053363816904,yes,Went back to the sidewalk,5,5,2,B,0.05
+448,0,-1.3040130725202013,yes,Went back to the sidewalk,6,6,2,B,0.05
+449,0,-0.21687107281135876,yes,Went back to the sidewalk,5,5,2,B,0.05
+450,0,5.382792146137005,no,dead,7,7,2,B,0.05
+451,0,5.459067986488847,no,dead,5,5,2,B,0.05
+452,0,-0.7659835510534307,yes,Went back to the sidewalk,3,3,2,B,0.05
+453,0,-0.8511921427026307,yes,Went back to the sidewalk,10,10,2,B,0.05
+454,0,-1.1025698313688597,yes,Went back to the sidewalk,4,4,2,B,0.05
+455,0,8.358763025209093,yes,Crossed,10,10,2,B,0.05
+456,0,1.864766312716573,no,dead,5,5,2,B,0.05
+457,0,7.12630598882331,yes,Crossed,4,4,2,B,0.05
+458,0,7.107818101880725,yes,Crossed,12,12,2,B,0.05
+459,0,7.491111912851397,yes,Crossed,6,6,2,B,0.05
+460,0,-0.6330701144531115,yes,Went back to the sidewalk,3,3,2,B,0.05
+461,0,-0.21498067484072503,yes,Went back to the sidewalk,5,5,2,B,0.05
+462,0,5.1450268397000025,no,dead,5,5,2,B,0.05
+463,0,7.209032738792655,yes,Crossed,4,4,2,B,0.05
+464,0,6.631446922187791,no,dead,4,4,2,B,0.05
+465,0,7.245659893399425,yes,Crossed,4,4,2,B,0.05
+466,0,8.208380932314867,yes,Crossed,5,5,2,B,0.05
+467,0,-1.6972660477992443,yes,Went back to the sidewalk,5,5,2,B,0.05
+468,0,7.005892966252732,yes,Crossed,6,6,2,B,0.05
+469,0,1.7193538191644069,no,dead,3,3,2,B,0.05
+470,0,-0.1010080559145301,yes,Went back to the sidewalk,12,12,2,B,0.05
+471,0,-0.33952475419243755,yes,Went back to the sidewalk,6,6,2,B,0.05
+472,0,-0.8089771533075281,yes,Went back to the sidewalk,10,10,2,B,0.05
+473,0,-1.7894223668815084,yes,Went back to the sidewalk,5,5,2,B,0.05
+474,0,7.599513853161812,yes,Crossed,7,7,2,B,0.05
+475,0,-0.799322721189446,yes,Went back to the sidewalk,18,18,2,B,0.05
+476,0,8.39846885810064,yes,Crossed,7,7,2,B,0.05
+477,0,7.279791578122897,yes,Crossed,7,7,2,B,0.05
+478,0,-1.7421992002614786,yes,Went back to the sidewalk,7,7,2,B,0.05
+479,0,8.713045802248455,yes,Crossed,6,6,2,B,0.05
+480,0,7.936214748978492,yes,Crossed,4,4,2,B,0.05
+481,0,-0.20327941772302682,yes,Went back to the sidewalk,3,3,2,B,0.05
+482,0,8.031815768613763,yes,Crossed,6,6,2,B,0.05
+483,0,-0.2932410801979226,yes,Went back to the sidewalk,3,3,2,B,0.05
+484,0,-0.08945426287010316,yes,Went back to the sidewalk,9,9,2,B,0.05
+485,0,1.8295086370164106,no,dead,12,12,2,B,0.05
+486,0,5.181974789374614,no,dead,10,10,2,B,0.05
+487,0,-0.7466906640807731,yes,Went back to the sidewalk,4,4,2,B,0.05
+488,0,1.7806032661817952,no,dead,13,13,2,B,0.05
+489,0,-0.6445170330411709,yes,Went back to the sidewalk,3,3,2,B,0.05
+490,0,7.480728172725341,yes,Crossed,5,5,2,B,0.05
+491,0,6.421749864208752,no,dead,7,7,2,B,0.05
+492,0,7.733891537904835,yes,Crossed,5,5,2,B,0.05
+493,0,-0.405160504220224,yes,Went back to the sidewalk,4,4,2,B,0.05
+494,0,-0.005191260133144526,yes,Went back to the sidewalk,4,4,2,B,0.05
+495,0,2.0443277329612273,no,dead,2,2,2,B,0.05
+496,0,-0.5690452331237463,yes,Went back to the sidewalk,4,4,2,B,0.05
+497,0,-0.4959570725688136,yes,Went back to the sidewalk,3,3,2,B,0.05
+498,0,-1.0750954686143386,yes,Went back to the sidewalk,5,5,2,B,0.05
+499,0,-0.6948909184431293,yes,Went back to the sidewalk,10,10,2,B,0.05
+500,0,-1.5272247482222494,yes,Went back to the sidewalk,4,4,2,B,0.05
+501,0,-0.44507152463356925,yes,Went back to the sidewalk,4,4,2,B,0.05
+502,0,-0.6610009121569059,yes,Went back to the sidewalk,4,4,2,B,0.05
+503,0,7.2386910008684975,yes,Crossed,9,9,2,B,0.05
+504,0,7.0113409259858805,yes,Crossed,10,10,2,B,0.05
+505,0,-0.01516352483911887,yes,Went back to the sidewalk,4,4,2,B,0.05
+506,0,7.0544232815544605,yes,Crossed,8,8,2,B,0.05
+507,0,-0.14861101372726027,yes,Went back to the sidewalk,3,3,2,B,0.05
+508,0,8.102816595834062,yes,Crossed,5,5,2,B,0.05
+509,0,-0.4330678505720811,yes,Went back to the sidewalk,3,3,2,B,0.05
+510,0,-1.0512480310636516,yes,Went back to the sidewalk,10,10,2,B,0.05
+511,0,2.1590295077630657,no,dead,3,3,2,B,0.05
+512,0,7.369434665924394,yes,Crossed,5,5,2,B,0.05
+513,0,7.240036220547002,yes,Crossed,8,8,2,B,0.05
+514,0,1.5005919029310837,no,dead,2,2,2,B,0.05
+515,0,7.749797739028196,yes,Crossed,6,6,2,B,0.05
+516,0,1.367660777328047,no,dead,5,5,2,B,0.05
+517,0,8.733301373713658,yes,Crossed,5,5,2,B,0.05
+518,0,8.50297360244755,yes,Crossed,5,5,2,B,0.05
+519,0,7.801651896611509,yes,Crossed,5,5,2,B,0.05
+520,0,5.555137320478177,no,dead,6,6,2,B,0.05
+521,0,7.302007678991585,yes,Crossed,5,5,2,B,0.05
+522,0,1.742811606188358,no,dead,5,5,2,B,0.05
+523,0,5.28397806203606,no,dead,4,4,2,B,0.05
+524,0,-0.44202917542845965,yes,Went back to the sidewalk,5,5,2,B,0.05
+525,0,-0.2592082405568348,yes,Went back to the sidewalk,3,3,2,B,0.05
+526,0,-0.04287365879214966,yes,Went back to the sidewalk,5,5,2,B,0.05
+527,0,7.154581657007829,yes,Crossed,4,4,2,B,0.05
+528,0,7.642738642064001,yes,Crossed,11,11,2,B,0.05
+529,0,8.278725855781927,yes,Crossed,5,5,2,B,0.05
+530,0,-0.16179581055408776,yes,Went back to the sidewalk,3,3,2,B,0.05
+531,0,8.789909827550474,yes,Crossed,9,9,2,B,0.05
+532,0,7.632675239865375,yes,Crossed,7,7,2,B,0.05
+533,0,7.423631017025343,yes,Crossed,8,8,2,B,0.05
+534,0,7.198192690914226,yes,Crossed,18,18,2,B,0.05
+535,0,7.3737109397532095,yes,Crossed,6,6,2,B,0.05
+536,0,-0.21072775289348034,yes,Went back to the sidewalk,12,12,2,B,0.05
+537,0,-0.24214979374827483,yes,Went back to the sidewalk,5,5,2,B,0.05
+538,0,7.310815987837315,yes,Crossed,4,4,2,B,0.05
+539,0,7.42289726361691,yes,Crossed,4,4,2,B,0.05
+540,0,-1.0757041513890768,yes,Went back to the sidewalk,5,5,2,B,0.05
+541,0,-0.1676995434250408,yes,Went back to the sidewalk,7,7,2,B,0.05
+542,0,-0.2531241811797251,yes,Went back to the sidewalk,10,10,2,B,0.05
+543,0,-1.7476625912939963,yes,Went back to the sidewalk,5,5,2,B,0.05
+544,0,7.307982785789578,yes,Crossed,21,21,2,B,0.05
+545,0,7.502488374336864,yes,Crossed,7,7,2,B,0.05
+546,0,7.19807961690862,yes,Crossed,7,7,2,B,0.05
+547,0,-0.44490167674218906,yes,Went back to the sidewalk,4,4,2,B,0.05
+548,0,2.8597420680377823,no,dead,8,8,2,B,0.05
+549,0,-1.3927145571113808,yes,Went back to the sidewalk,5,5,2,B,0.05
+550,0,2.579999123153412,no,dead,5,5,2,B,0.05
+551,0,-0.3302380147481556,yes,Went back to the sidewalk,5,5,2,B,0.05
+552,0,-0.2200403287482804,yes,Went back to the sidewalk,12,12,2,B,0.05
+553,0,6.800264392539788,no,dead,7,7,2,B,0.05
+554,0,6.213172388451431,no,dead,10,10,2,B,0.05
+555,0,1.5367503227569992,no,dead,10,10,2,B,0.05
+556,0,-0.6604183249556965,yes,Went back to the sidewalk,3,3,2,B,0.05
+557,0,7.496714068566437,yes,Crossed,4,4,2,B,0.05
+558,0,7.057602135461527,yes,Crossed,5,5,2,B,0.05
+559,0,7.766919647162,yes,Crossed,8,8,2,B,0.05
+560,0,-0.8827468335308137,yes,Went back to the sidewalk,5,5,2,B,0.05
+561,0,2.915468791475453,no,dead,5,5,2,B,0.05
+562,0,7.345600084916049,yes,Crossed,4,4,2,B,0.05
+563,0,-0.11266944516511068,yes,Went back to the sidewalk,9,9,2,B,0.05
+564,0,-0.33062695382264984,yes,Went back to the sidewalk,4,4,2,B,0.05
+565,0,8.666370799014006,yes,Crossed,9,9,2,B,0.05
+566,0,-0.15136395231302346,yes,Went back to the sidewalk,11,11,2,B,0.05
+567,0,7.898178901159887,yes,Crossed,7,7,2,B,0.05
+568,0,7.038777217153789,yes,Crossed,4,4,2,B,0.05
+569,0,-0.30545164139160463,yes,Went back to the sidewalk,4,4,2,B,0.05
+570,0,-0.6490035592283565,yes,Went back to the sidewalk,5,5,2,B,0.05
+571,0,-0.8692776724198519,yes,Went back to the sidewalk,3,3,2,B,0.05
+572,0,7.857568602594394,yes,Crossed,9,9,2,B,0.05
+573,0,7.116213568749885,yes,Crossed,4,4,2,B,0.05
+574,0,-1.8913022048480232,yes,Went back to the sidewalk,9,9,2,B,0.05
+575,0,8.36929682487462,yes,Crossed,6,6,2,B,0.05
+576,0,8.905642734675501,yes,Crossed,10,10,2,B,0.05
+577,0,-0.6406804933186792,yes,Went back to the sidewalk,3,3,2,B,0.05
+578,0,2.802297114704932,no,dead,2,2,2,B,0.05
+579,0,8.415742700737901,yes,Crossed,17,17,2,B,0.05
+580,0,-0.14270528998084409,yes,Went back to the sidewalk,7,7,2,B,0.05
+581,0,5.9279020561881435,no,dead,7,7,2,B,0.05
+582,0,1.3343609109540269,no,dead,2,2,2,B,0.05
+583,0,-1.7400254518261193,yes,Went back to the sidewalk,4,4,2,B,0.05
+584,0,-0.10163148410031742,yes,Went back to the sidewalk,13,13,2,B,0.05
+585,0,7.184069249718462,yes,Crossed,5,5,2,B,0.05
+586,0,7.518789626249294,yes,Crossed,4,4,2,B,0.05
+587,0,7.357935078981608,yes,Crossed,6,6,2,B,0.05
+588,0,7.134051799396819,yes,Crossed,5,5,2,B,0.05
+589,0,1.358743019947823,no,dead,3,3,2,B,0.05
+590,0,1.5708702751447525,no,dead,2,2,2,B,0.05
+591,0,-0.30153354018702694,yes,Went back to the sidewalk,3,3,2,B,0.05
+592,0,-0.04581529026804998,yes,Went back to the sidewalk,6,6,2,B,0.05
+593,0,-0.6774685251258385,yes,Went back to the sidewalk,3,3,2,B,0.05
+594,0,7.212592061557917,yes,Crossed,5,5,2,B,0.05
+595,0,6.885945247936576,no,dead,5,5,2,B,0.05
+596,0,2.1109459600499583,no,dead,2,2,2,B,0.05
+597,0,8.804624208646825,yes,Crossed,11,11,2,B,0.05
+598,0,-0.025598533238015753,yes,Went back to the sidewalk,3,3,2,B,0.05
+599,0,7.746137863329046,yes,Crossed,5,5,2,B,0.05
+600,0,7.040987184606089,yes,Crossed,8,8,2,B,0.05
+601,0,-1.0495887578782834,yes,Went back to the sidewalk,4,4,2,B,0.05
+602,0,-0.9644893856424548,yes,Went back to the sidewalk,3,3,2,B,0.05
+603,0,-0.21169943860551688,yes,Went back to the sidewalk,6,6,2,B,0.05
+604,0,-0.9789980741624837,yes,Went back to the sidewalk,3,3,2,B,0.05
+605,0,-0.8372229900812538,yes,Went back to the sidewalk,4,4,2,B,0.05
+606,0,7.407864996714638,yes,Crossed,5,5,2,B,0.05
+607,0,-0.4311360493849812,yes,Went back to the sidewalk,8,8,2,B,0.05
+608,0,7.793347366373818,yes,Crossed,6,6,2,B,0.05
+609,0,7.3866834081337,yes,Crossed,5,5,2,B,0.05
+610,0,-0.17512872981031924,yes,Went back to the sidewalk,6,6,2,B,0.05
+611,0,-0.26525288050464113,yes,Went back to the sidewalk,4,4,2,B,0.05
+612,0,-0.22595106824778455,yes,Went back to the sidewalk,7,7,2,B,0.05
+613,0,-0.8698801112002994,yes,Went back to the sidewalk,15,15,2,B,0.05
+614,0,7.731700109012435,yes,Crossed,5,5,2,B,0.05
+615,0,-1.3159720249663756,yes,Went back to the sidewalk,7,7,2,B,0.05
+616,0,7.263895610712529,yes,Crossed,5,5,2,B,0.05
+617,0,-1.2706341244684176,yes,Went back to the sidewalk,9,9,2,B,0.05
+618,0,-0.013244245809998834,yes,Went back to the sidewalk,14,14,2,B,0.05
+619,0,1.3534863057311268,no,dead,2,2,2,B,0.05
+620,0,2.185783869987163,no,dead,2,2,2,B,0.05
+621,0,-1.6717056531017793,yes,Went back to the sidewalk,8,8,2,B,0.05
+622,0,7.129888593305247,yes,Crossed,11,11,2,B,0.05
+623,0,6.337646025388419,no,dead,4,4,2,B,0.05
+624,0,-1.0201396943187726,yes,Went back to the sidewalk,4,4,2,B,0.05
+625,0,-0.08728768278511789,yes,Went back to the sidewalk,7,7,2,B,0.05
+626,0,-0.8432127008391714,yes,Went back to the sidewalk,4,4,2,B,0.05
+627,0,7.083366127230272,yes,Crossed,6,6,2,B,0.05
+628,0,-1.282244582747476,yes,Went back to the sidewalk,5,5,2,B,0.05
+629,0,7.006253719960858,yes,Crossed,9,9,2,B,0.05
+630,0,-0.24110040297292668,yes,Went back to the sidewalk,3,3,2,B,0.05
+631,0,7.491266264258549,yes,Crossed,8,8,2,B,0.05
+632,0,-0.032205528726926724,yes,Went back to the sidewalk,13,13,2,B,0.05
+633,0,1.4688877650263819,no,dead,2,2,2,B,0.05
+634,0,7.109010806052688,yes,Crossed,9,9,2,B,0.05
+635,0,2.516888629623156,no,dead,13,13,2,B,0.05
+636,0,-0.5193429996107242,yes,Went back to the sidewalk,9,9,2,B,0.05
+637,0,1.4756878916689746,no,dead,4,4,2,B,0.05
+638,0,-1.0527125824956487,yes,Went back to the sidewalk,35,35,2,B,0.05
+639,0,-1.7154671715941663,yes,Went back to the sidewalk,7,7,2,B,0.05
+640,0,6.23261870694321,no,dead,4,4,2,B,0.05
+641,0,8.256234953964833,yes,Crossed,6,6,2,B,0.05
+642,0,-0.6110167869791068,yes,Went back to the sidewalk,9,9,2,B,0.05
+643,0,5.989994588567779,no,dead,4,4,2,B,0.05
+644,0,-0.8470179958053217,yes,Went back to the sidewalk,12,12,2,B,0.05
+645,0,-1.6863850691048692,yes,Went back to the sidewalk,7,7,2,B,0.05
+646,0,5.689148876512825,no,dead,3,3,2,B,0.05
+647,0,8.014971482213237,yes,Crossed,12,12,2,B,0.05
+648,0,-0.5631553117395365,yes,Went back to the sidewalk,4,4,2,B,0.05
+649,0,-0.5578636142386799,yes,Went back to the sidewalk,5,5,2,B,0.05
+650,0,-1.1615413274746185,yes,Went back to the sidewalk,14,14,2,B,0.05
+651,0,-0.5648170846840184,yes,Went back to the sidewalk,4,4,2,B,0.05
+652,0,7.5573092081054165,yes,Crossed,14,14,2,B,0.05
+653,0,7.844106392580188,yes,Crossed,12,12,2,B,0.05
+654,0,7.218641415191247,yes,Crossed,5,5,2,B,0.05
+655,0,8.010694006508812,yes,Crossed,8,8,2,B,0.05
+656,0,-1.019681235885714,yes,Went back to the sidewalk,6,6,2,B,0.05
+657,0,1.309292771373555,no,dead,17,17,2,B,0.05
+658,0,-0.2984902013338029,yes,Went back to the sidewalk,5,5,2,B,0.05
+659,0,-0.6598736069415668,yes,Went back to the sidewalk,5,5,2,B,0.05
+660,0,5.830582290338199,no,dead,14,14,2,B,0.05
+661,0,7.86867141942435,yes,Crossed,11,11,2,B,0.05
+662,0,7.845192481762389,yes,Crossed,7,7,2,B,0.05
+663,0,1.691191408371908,no,dead,5,5,2,B,0.05
+664,0,7.804665638756928,yes,Crossed,9,9,2,B,0.05
+665,0,-0.8517294239387052,yes,Went back to the sidewalk,10,10,2,B,0.05
+666,0,8.624434706787266,yes,Crossed,5,5,2,B,0.05
+667,0,6.303054203678352,no,dead,18,18,2,B,0.05
+668,0,2.719916471613986,no,dead,7,7,2,B,0.05
+669,0,2.512043342299128,no,dead,4,4,2,B,0.05
+670,0,-1.0573421122949844,yes,Went back to the sidewalk,5,5,2,B,0.05
+671,0,-1.2301446367840139,yes,Went back to the sidewalk,5,5,2,B,0.05
+672,0,-0.5107545485223657,yes,Went back to the sidewalk,5,5,2,B,0.05
+673,0,8.44724269274799,yes,Crossed,5,5,2,B,0.05
+674,0,7.0009508464427475,yes,Crossed,4,4,2,B,0.05
+675,0,7.2136267658814734,yes,Crossed,5,5,2,B,0.05
+676,0,-1.353815700442354,yes,Went back to the sidewalk,5,5,2,B,0.05
+677,0,-0.3796462141139334,yes,Went back to the sidewalk,4,4,2,B,0.05
+678,0,-1.3236074452824007,yes,Went back to the sidewalk,5,5,2,B,0.05
+679,0,-0.1559618530080511,yes,Went back to the sidewalk,4,4,2,B,0.05
+680,0,-0.3576614872502204,yes,Went back to the sidewalk,3,3,2,B,0.05
+681,0,-1.6427331230682145,yes,Went back to the sidewalk,15,15,2,B,0.05
+682,0,7.353836575986346,yes,Crossed,5,5,2,B,0.05
+683,0,8.763886496553724,yes,Crossed,5,5,2,B,0.05
+684,0,7.133588682502258,yes,Crossed,9,9,2,B,0.05
+685,0,7.564551024049502,yes,Crossed,5,5,2,B,0.05
+686,0,7.336836675342505,yes,Crossed,5,5,2,B,0.05
+687,0,1.3601078568138627,no,dead,7,7,2,B,0.05
+688,0,5.338799529973663,no,dead,6,6,2,B,0.05
+689,0,5.935749245654262,no,dead,10,10,2,B,0.05
+690,0,7.054578906887161,yes,Crossed,14,14,2,B,0.05
+691,0,7.3673182095588325,yes,Crossed,9,9,2,B,0.05
+692,0,8.355057407839952,yes,Crossed,16,16,2,B,0.05
+693,0,-0.30497705041137735,yes,Went back to the sidewalk,6,6,2,B,0.05
+694,0,7.0777298357085865,yes,Crossed,11,11,2,B,0.05
+695,0,-0.019024754924990672,yes,Went back to the sidewalk,3,3,2,B,0.05
+696,0,-0.22974157794264127,yes,Went back to the sidewalk,4,4,2,B,0.05
+697,0,7.318921448791127,yes,Crossed,4,4,2,B,0.05
+698,0,7.077900479972123,yes,Crossed,6,6,2,B,0.05
+699,0,-0.9670068262956868,yes,Went back to the sidewalk,8,8,2,B,0.05
+700,0,-0.4780045321245454,yes,Went back to the sidewalk,7,7,2,B,0.05
+701,0,7.117833902460819,yes,Crossed,21,21,2,B,0.05
+702,0,8.00533029617381,yes,Crossed,23,23,2,B,0.05
+703,0,-1.266240287984503,yes,Went back to the sidewalk,6,6,2,B,0.05
+704,0,-0.6516646514161342,yes,Went back to the sidewalk,4,4,2,B,0.05
+705,0,-0.6375644402020402,yes,Went back to the sidewalk,7,7,2,B,0.05
+706,0,7.881106332636558,yes,Crossed,8,8,2,B,0.05
+707,0,-0.1139543115092232,yes,Went back to the sidewalk,3,3,2,B,0.05
+708,0,6.965529450053938,no,dead,5,5,2,B,0.05
+709,0,-0.474996117191925,yes,Went back to the sidewalk,9,9,2,B,0.05
+710,0,6.1463550794181465,no,dead,7,7,2,B,0.05
+711,0,-1.8310727619924623,yes,Went back to the sidewalk,4,4,2,B,0.05
+712,0,2.57699273011163,no,dead,19,19,2,B,0.05
+713,0,2.6625390031583356,no,dead,5,5,2,B,0.05
+714,0,-0.7862309858441276,yes,Went back to the sidewalk,3,3,2,B,0.05
+715,0,5.101904518067062,no,dead,6,6,2,B,0.05
+716,0,-0.8144053396637247,yes,Went back to the sidewalk,15,15,2,B,0.05
+717,0,-0.2377275418017175,yes,Went back to the sidewalk,5,5,2,B,0.05
+718,0,-0.7544744440821531,yes,Went back to the sidewalk,6,6,2,B,0.05
+719,0,7.137712691338703,yes,Crossed,10,10,2,B,0.05
+720,0,1.3979226176081596,no,dead,2,2,2,B,0.05
+721,0,-0.6352034970126867,yes,Went back to the sidewalk,7,7,2,B,0.05
+722,0,-0.3466933691713474,yes,Went back to the sidewalk,4,4,2,B,0.05
+723,0,-0.5190388137300748,yes,Went back to the sidewalk,4,4,2,B,0.05
+724,0,-0.7409760477678156,yes,Went back to the sidewalk,4,4,2,B,0.05
+725,0,8.292968890056343,yes,Crossed,6,6,2,B,0.05
+726,0,7.8287599851864105,yes,Crossed,4,4,2,B,0.05
+727,0,-1.4790088629175082,yes,Went back to the sidewalk,5,5,2,B,0.05
+728,0,7.5209314544833195,yes,Crossed,5,5,2,B,0.05
+729,0,1.5479575668232943,no,dead,11,11,2,B,0.05
+730,0,-1.337816769341759,yes,Went back to the sidewalk,5,5,2,B,0.05
+731,0,7.7640079200560255,yes,Crossed,4,4,2,B,0.05
+732,0,8.198825526387639,yes,Crossed,18,18,2,B,0.05
+733,0,7.013081765809249,yes,Crossed,14,14,2,B,0.05
+734,0,1.1542496995098475,no,dead,6,6,2,B,0.05
+735,0,-0.22532921908809067,yes,Went back to the sidewalk,4,4,2,B,0.05
+736,0,2.7071194854202645,no,dead,5,5,2,B,0.05
+737,0,5.893995377052034,no,dead,3,3,2,B,0.05
+738,0,7.098272680035441,yes,Crossed,5,5,2,B,0.05
+739,0,-1.1834750444177713,yes,Went back to the sidewalk,7,7,2,B,0.05
+740,0,-0.560816358719791,yes,Went back to the sidewalk,7,7,2,B,0.05
+741,0,7.498451576354939,yes,Crossed,12,12,2,B,0.05
+742,0,-0.7108996368848088,yes,Went back to the sidewalk,3,3,2,B,0.05
+743,0,6.642522507297911,no,dead,7,7,2,B,0.05
+744,0,7.157250309338306,yes,Crossed,4,4,2,B,0.05
+745,0,7.120654859325632,yes,Crossed,8,8,2,B,0.05
+746,0,-0.5172967035258895,yes,Went back to the sidewalk,7,7,2,B,0.05
+747,0,-0.8498627840989905,yes,Went back to the sidewalk,3,3,2,B,0.05
+748,0,-0.9138113261397549,yes,Went back to the sidewalk,4,4,2,B,0.05
+749,0,-1.5043122501058548,yes,Went back to the sidewalk,4,4,2,B,0.05
+750,0,7.355850949372499,yes,Crossed,5,5,2,B,0.05
+751,0,7.168190112384378,yes,Crossed,6,6,2,B,0.05
+752,0,-1.3266158896537765,yes,Went back to the sidewalk,4,4,2,B,0.05
+753,0,5.161419410513911,no,dead,9,9,2,B,0.05
+754,0,8.3679473135708,yes,Crossed,7,7,2,B,0.05
+755,0,2.489599503755152,no,dead,2,2,2,B,0.05
+756,0,-1.3359916785527923,yes,Went back to the sidewalk,15,15,2,B,0.05
+757,0,-0.03378772686705078,yes,Went back to the sidewalk,5,5,2,B,0.05
+758,0,5.183777238894782,no,dead,3,3,2,B,0.05
+759,0,7.638935343216522,yes,Crossed,5,5,2,B,0.05
+760,0,-0.2006780402482513,yes,Went back to the sidewalk,4,4,2,B,0.05
+761,0,7.007130438810327,yes,Crossed,6,6,2,B,0.05
+762,0,6.550473927635337,no,dead,5,5,2,B,0.05
+763,0,2.5720457353549246,no,dead,2,2,2,B,0.05
+764,0,-0.14453867986975122,yes,Went back to the sidewalk,11,11,2,B,0.05
+765,0,-0.21735565922785072,yes,Went back to the sidewalk,3,3,2,B,0.05
+766,0,-0.0015443508238148773,yes,Went back to the sidewalk,3,3,2,B,0.05
+767,0,2.263820765422285,no,dead,2,2,2,B,0.05
+768,0,7.20949170910629,yes,Crossed,5,5,2,B,0.05
+769,0,-0.47305251761090816,yes,Went back to the sidewalk,6,6,2,B,0.05
+770,0,-0.39168682989661807,yes,Went back to the sidewalk,5,5,2,B,0.05
+771,0,-0.20644504619394022,yes,Went back to the sidewalk,8,8,2,B,0.05
+772,0,7.642862491810463,yes,Crossed,5,5,2,B,0.05
+773,0,-0.8516490712853524,yes,Went back to the sidewalk,7,7,2,B,0.05
+774,0,-0.4971882864873902,yes,Went back to the sidewalk,5,5,2,B,0.05
+775,0,7.440937607010356,yes,Crossed,22,22,2,B,0.05
+776,0,-1.6557363436915,yes,Went back to the sidewalk,5,5,2,B,0.05
+777,0,2.583408013723996,no,dead,2,2,2,B,0.05
+778,0,-0.13118160161058845,yes,Went back to the sidewalk,5,5,2,B,0.05
+779,0,6.629134630083421,no,dead,5,5,2,B,0.05
+780,0,-0.3044344445462899,yes,Went back to the sidewalk,4,4,2,B,0.05
+781,0,-0.5439671146562917,yes,Went back to the sidewalk,3,3,2,B,0.05
+782,0,8.051933512303183,yes,Crossed,11,11,2,B,0.05
+783,0,-1.3639871574440081,yes,Went back to the sidewalk,5,5,2,B,0.05
+784,0,7.282063735945915,yes,Crossed,5,5,2,B,0.05
+785,0,7.605591172659055,yes,Crossed,4,4,2,B,0.05
+786,0,7.1289269432595885,yes,Crossed,6,6,2,B,0.05
+787,0,-0.8364003653863445,yes,Went back to the sidewalk,3,3,2,B,0.05
+788,0,2.3207898516418446,no,dead,10,10,2,B,0.05
+789,0,8.148491402513471,yes,Crossed,5,5,2,B,0.05
+790,0,1.6661183341044385,no,dead,2,2,2,B,0.05
+791,0,7.149681521348681,yes,Crossed,8,8,2,B,0.05
+792,0,-0.6190861833341246,yes,Went back to the sidewalk,3,3,2,B,0.05
+793,0,8.101968447507303,yes,Crossed,5,5,2,B,0.05
+794,0,-0.40265448092484246,yes,Went back to the sidewalk,9,9,2,B,0.05
+795,0,7.682800664105794,yes,Crossed,6,6,2,B,0.05
+796,0,-0.5822277742598452,yes,Went back to the sidewalk,9,9,2,B,0.05
+797,0,-1.2873887716014862,yes,Went back to the sidewalk,4,4,2,B,0.05
+798,0,-0.7074600089851739,yes,Went back to the sidewalk,3,3,2,B,0.05
+799,0,-1.0257913877377147,yes,Went back to the sidewalk,10,10,2,B,0.05
+800,0,7.9919489391858,yes,Crossed,4,4,2,B,0.05
+801,0,8.64137406820578,yes,Crossed,5,5,2,B,0.05
+802,0,-0.23526053033069272,yes,Went back to the sidewalk,3,3,2,B,0.05
+803,0,-0.5927258687505523,yes,Went back to the sidewalk,8,8,2,B,0.05
+804,0,7.631442278852631,yes,Crossed,4,4,2,B,0.05
+805,0,-0.7754019518419439,yes,Went back to the sidewalk,3,3,2,B,0.05
+806,0,8.197316625778546,yes,Crossed,5,5,2,B,0.05
+807,0,5.472339088810482,no,dead,7,7,2,B,0.05
+808,0,-0.3167630093373621,yes,Went back to the sidewalk,4,4,2,B,0.05
+809,0,-1.019762657529358,yes,Went back to the sidewalk,7,7,2,B,0.05
+810,0,7.134584715327825,yes,Crossed,8,8,2,B,0.05
+811,0,7.840664644853046,yes,Crossed,5,5,2,B,0.05
+812,0,-0.7701770572130011,yes,Went back to the sidewalk,3,3,2,B,0.05
+813,0,7.9016960685180235,yes,Crossed,13,13,2,B,0.05
+814,0,7.422179483680573,yes,Crossed,7,7,2,B,0.05
+815,0,8.244539682951686,yes,Crossed,9,9,2,B,0.05
+816,0,7.303466824844653,yes,Crossed,5,5,2,B,0.05
+817,0,-0.8662476677076307,yes,Went back to the sidewalk,8,8,2,B,0.05
+818,0,-1.125740494012287,yes,Went back to the sidewalk,7,7,2,B,0.05
+819,0,7.510949887085117,yes,Crossed,6,6,2,B,0.05
+820,0,8.16138615910664,yes,Crossed,22,22,2,B,0.05
+821,0,1.6276378304631034,no,dead,2,2,2,B,0.05
+822,0,7.290303365091599,yes,Crossed,8,8,2,B,0.05
+823,0,5.951851459484557,no,dead,5,5,2,B,0.05
+824,0,1.4992026922353296,no,dead,3,3,2,B,0.05
+825,0,7.914146180926023,yes,Crossed,5,5,2,B,0.05
+826,0,7.06190472540894,yes,Crossed,10,10,2,B,0.05
+827,0,7.558103056069124,yes,Crossed,6,6,2,B,0.05
+828,0,1.6533119065877195,no,dead,8,8,2,B,0.05
+829,0,8.106326333552472,yes,Crossed,11,11,2,B,0.05
+830,0,7.871168260434378,yes,Crossed,9,9,2,B,0.05
+831,0,7.292317182380975,yes,Crossed,4,4,2,B,0.05
+832,0,-0.8820333762244883,yes,Went back to the sidewalk,6,6,2,B,0.05
+833,0,-1.228767215842172,yes,Went back to the sidewalk,16,16,2,B,0.05
+834,0,-1.48237874498354,yes,Went back to the sidewalk,14,14,2,B,0.05
+835,0,-0.14002154574364606,yes,Went back to the sidewalk,4,4,2,B,0.05
+836,0,2.205237853660265,no,dead,2,2,2,B,0.05
+837,0,-0.9244454775968995,yes,Went back to the sidewalk,4,4,2,B,0.05
+838,0,-0.5396448560318001,yes,Went back to the sidewalk,18,18,2,B,0.05
+839,0,1.9268995397685638,no,dead,8,8,2,B,0.05
+840,0,-0.6730120768114423,yes,Went back to the sidewalk,3,3,2,B,0.05
+841,0,2.53141737670919,no,dead,4,4,2,B,0.05
+842,0,7.128813984148515,yes,Crossed,4,4,2,B,0.05
+843,0,-0.3992197942608079,yes,Went back to the sidewalk,7,7,2,B,0.05
+844,0,7.083734783490279,yes,Crossed,5,5,2,B,0.05
+845,0,6.674976185319904,no,dead,5,5,2,B,0.05
+846,0,-0.16781136541964714,yes,Went back to the sidewalk,3,3,2,B,0.05
+847,0,1.4470477803320374,no,dead,2,2,2,B,0.05
+848,0,2.450509788832703,no,dead,5,5,2,B,0.05
+849,0,1.0774317756508802,no,dead,2,2,2,B,0.05
+850,0,-0.5933473933582085,yes,Went back to the sidewalk,5,5,2,B,0.05
+851,0,7.061317607005458,yes,Crossed,11,11,2,B,0.05
+852,0,5.943692331068127,no,dead,3,3,2,B,0.05
+853,0,-0.3360833401127692,yes,Went back to the sidewalk,5,5,2,B,0.05
+854,0,1.972805805496833,no,dead,6,6,2,B,0.05
+855,0,7.9450169529024315,yes,Crossed,14,14,2,B,0.05
+856,0,7.934383018741527,yes,Crossed,5,5,2,B,0.05
+857,0,5.12380986751682,no,dead,6,6,2,B,0.05
+858,0,7.30632963452015,yes,Crossed,4,4,2,B,0.05
+859,0,7.150144571021446,yes,Crossed,9,9,2,B,0.05
+860,0,-1.128372839789965,yes,Went back to the sidewalk,10,10,2,B,0.05
+861,0,7.2373056474910245,yes,Crossed,6,6,2,B,0.05
+862,0,8.627900753991762,yes,Crossed,5,5,2,B,0.05
+863,0,-0.29825484026878324,yes,Went back to the sidewalk,12,12,2,B,0.05
+864,0,2.916394654870409,no,dead,10,10,2,B,0.05
+865,0,5.022172684298587,no,dead,12,12,2,B,0.05
+866,0,7.736658883966483,yes,Crossed,6,6,2,B,0.05
+867,0,7.816708861311232,yes,Crossed,9,9,2,B,0.05
+868,0,2.159701955966118,no,dead,2,2,2,B,0.05
+869,0,1.6564856727013648,no,dead,2,2,2,B,0.05
+870,0,1.8728907247628814,no,dead,3,3,2,B,0.05
+871,0,-0.09464793966964527,yes,Went back to the sidewalk,9,9,2,B,0.05
+872,0,-1.4154046735002315,yes,Went back to the sidewalk,9,9,2,B,0.05
+873,0,-0.13400159225211317,yes,Went back to the sidewalk,3,3,2,B,0.05
+874,0,-1.646931213932025,yes,Went back to the sidewalk,6,6,2,B,0.05
+875,0,8.690350834900624,yes,Crossed,8,8,2,B,0.05
+876,0,-1.182005361687102,yes,Went back to the sidewalk,4,4,2,B,0.05
+877,0,7.883086766934994,yes,Crossed,4,4,2,B,0.05
+878,0,-0.08576189836734494,yes,Went back to the sidewalk,4,4,2,B,0.05
+879,0,2.6067358074166256,no,dead,2,2,2,B,0.05
+880,0,8.152645211383996,yes,Crossed,11,11,2,B,0.05
+881,0,7.409154224405188,yes,Crossed,5,5,2,B,0.05
+882,0,-0.057082240614973134,yes,Went back to the sidewalk,4,4,2,B,0.05
+883,0,2.061572953364682,no,dead,7,7,2,B,0.05
+884,0,8.19599044355893,yes,Crossed,12,12,2,B,0.05
+885,0,-0.8704610684053375,yes,Went back to the sidewalk,16,16,2,B,0.05
+886,0,5.023444781203532,no,dead,12,12,2,B,0.05
+887,0,5.5061040997423865,no,dead,4,4,2,B,0.05
+888,0,5.068307552581355,no,dead,6,6,2,B,0.05
+889,0,1.6423045606345632,no,dead,13,13,2,B,0.05
+890,0,1.5735590389903096,no,dead,8,8,2,B,0.05
+891,0,-0.018403489399862805,yes,Went back to the sidewalk,3,3,2,B,0.05
+892,0,-0.09001397190052307,yes,Went back to the sidewalk,4,4,2,B,0.05
+893,0,8.137916513587175,yes,Crossed,8,8,2,B,0.05
+894,0,8.115484626077759,yes,Crossed,6,6,2,B,0.05
+895,0,-0.3012727697145787,yes,Went back to the sidewalk,9,9,2,B,0.05
+896,0,-0.03727210154610816,yes,Went back to the sidewalk,3,3,2,B,0.05
+897,0,7.418660657201681,yes,Crossed,4,4,2,B,0.05
+898,0,-1.6945114027832349,yes,Went back to the sidewalk,5,5,2,B,0.05
+899,0,-0.317454539779118,yes,Went back to the sidewalk,3,3,2,B,0.05
+900,0,-0.9749589195394492,yes,Went back to the sidewalk,3,3,2,B,0.05
+901,0,7.227869125481874,yes,Crossed,9,9,2,B,0.05
+902,0,-1.2089870386791022,yes,Went back to the sidewalk,6,6,2,B,0.05
+903,0,5.680134958225562,no,dead,6,6,2,B,0.05
+904,0,-0.5004023266272779,yes,Went back to the sidewalk,7,7,2,B,0.05
+905,0,-1.7676520807230114,yes,Went back to the sidewalk,5,5,2,B,0.05
+906,0,8.27027006526768,yes,Crossed,6,6,2,B,0.05
+907,0,7.096572170474491,yes,Crossed,4,4,2,B,0.05
+908,0,-0.3027616858896247,yes,Went back to the sidewalk,5,5,2,B,0.05
+909,0,-0.3626042986299973,yes,Went back to the sidewalk,15,15,2,B,0.05
+910,0,5.982049098379059,no,dead,3,3,2,B,0.05
+911,0,7.671186660702948,yes,Crossed,6,6,2,B,0.05
+912,0,7.773224105327449,yes,Crossed,5,5,2,B,0.05
+913,0,-1.2906865003394508,yes,Went back to the sidewalk,4,4,2,B,0.05
+914,0,2.921638969300862,no,dead,2,2,2,B,0.05
+915,0,7.68974998065073,yes,Crossed,4,4,2,B,0.05
+916,0,-0.09070556739295954,yes,Went back to the sidewalk,5,5,2,B,0.05
+917,0,-0.14483668980114728,yes,Went back to the sidewalk,3,3,2,B,0.05
+918,0,7.954501471511909,yes,Crossed,6,6,2,B,0.05
+919,0,7.919510346502054,yes,Crossed,5,5,2,B,0.05
+920,0,7.003741034686077,yes,Crossed,4,4,2,B,0.05
+921,0,7.078150429949147,yes,Crossed,5,5,2,B,0.05
+922,0,1.5530153039792798,no,dead,3,3,2,B,0.05
+923,0,7.374997409893804,yes,Crossed,4,4,2,B,0.05
+924,0,2.3569175271252187,no,dead,2,2,2,B,0.05
+925,0,-1.4804427873277575,yes,Went back to the sidewalk,7,7,2,B,0.05
+926,0,-0.36089665625201617,yes,Went back to the sidewalk,3,3,2,B,0.05
+927,0,-1.473438481107797,yes,Went back to the sidewalk,8,8,2,B,0.05
+928,0,1.8351598862514407,no,dead,6,6,2,B,0.05
+929,0,7.840804331307429,yes,Crossed,6,6,2,B,0.05
+930,0,-0.1194826659480519,yes,Went back to the sidewalk,3,3,2,B,0.05
+931,0,-1.1788969033770047,yes,Went back to the sidewalk,4,4,2,B,0.05
+932,0,-0.3737275444753353,yes,Went back to the sidewalk,6,6,2,B,0.05
+933,0,7.799520032300776,yes,Crossed,5,5,2,B,0.05
+934,0,7.501005481161026,yes,Crossed,7,7,2,B,0.05
+935,0,1.5952856020116384,no,dead,12,12,2,B,0.05
+936,0,2.377876323982882,no,dead,8,8,2,B,0.05
+937,0,-0.46447017208106,yes,Went back to the sidewalk,10,10,2,B,0.05
+938,0,8.204201394755248,yes,Crossed,5,5,2,B,0.05
+939,0,2.0670698299911097,no,dead,8,8,2,B,0.05
+940,0,8.187728908685827,yes,Crossed,7,7,2,B,0.05
+941,0,-0.4138167000798145,yes,Went back to the sidewalk,3,3,2,B,0.05
+942,0,2.16025199647715,no,dead,9,9,2,B,0.05
+943,0,-0.7341006942138117,yes,Went back to the sidewalk,5,5,2,B,0.05
+944,0,7.361848815875354,yes,Crossed,6,6,2,B,0.05
+945,0,8.47280488879483,yes,Crossed,5,5,2,B,0.05
+946,0,7.731588183534379,yes,Crossed,5,5,2,B,0.05
+947,0,8.09673821347563,yes,Crossed,9,9,2,B,0.05
+948,0,-0.666624205339826,yes,Went back to the sidewalk,9,9,2,B,0.05
+949,0,7.785614777507306,yes,Crossed,6,6,2,B,0.05
+950,0,7.111065815645715,yes,Crossed,4,4,2,B,0.05
+951,0,1.7907630735667537,no,dead,7,7,2,B,0.05
+952,0,-1.0985893836935237,yes,Went back to the sidewalk,9,9,2,B,0.05
+953,0,8.15025880018708,yes,Crossed,12,12,2,B,0.05
+954,0,-0.4715008700261609,yes,Went back to the sidewalk,3,3,2,B,0.05
+955,0,-0.8195847341877793,yes,Went back to the sidewalk,3,3,2,B,0.05
+956,0,7.4012604694082,yes,Crossed,6,6,2,B,0.05
+957,0,7.6113619047728935,yes,Crossed,7,7,2,B,0.05
+958,0,7.1851650182690125,yes,Crossed,9,9,2,B,0.05
+959,0,7.724806550528028,yes,Crossed,6,6,2,B,0.05
+960,0,-1.114400282356907,yes,Went back to the sidewalk,4,4,2,B,0.05
+961,0,7.8220539437801495,yes,Crossed,4,4,2,B,0.05
+962,0,6.255433907238762,no,dead,11,11,2,B,0.05
+963,0,2.0747526905857745,no,dead,6,6,2,B,0.05
+964,0,8.338167953613713,yes,Crossed,6,6,2,B,0.05
+965,0,7.865589187307103,yes,Crossed,5,5,2,B,0.05
+966,0,7.284559516397527,yes,Crossed,9,9,2,B,0.05
+967,0,-1.7071581112289271,yes,Went back to the sidewalk,6,6,2,B,0.05
+968,0,-1.1621867303996365,yes,Went back to the sidewalk,10,10,2,B,0.05
+969,0,5.522695988300077,no,dead,4,4,2,B,0.05
+970,0,-0.9158065663327579,yes,Went back to the sidewalk,8,8,2,B,0.05
+971,0,7.764357372741551,yes,Crossed,9,9,2,B,0.05
+972,0,7.05782939857454,yes,Crossed,4,4,2,B,0.05
+973,0,7.333864694125719,yes,Crossed,4,4,2,B,0.05
+974,0,-1.010882086184994,yes,Went back to the sidewalk,8,8,2,B,0.05
+975,0,8.589985627388918,yes,Crossed,5,5,2,B,0.05
+976,0,7.669419013235493,yes,Crossed,9,9,2,B,0.05
+977,0,7.436025191236848,yes,Crossed,4,4,2,B,0.05
+978,0,-0.3994379461746491,yes,Went back to the sidewalk,3,3,2,B,0.05
+979,0,8.353792634428283,yes,Crossed,14,14,2,B,0.05
+980,0,7.38280064660767,yes,Crossed,4,4,2,B,0.05
+981,0,7.2185473870357315,yes,Crossed,5,5,2,B,0.05
+982,0,-1.5567202949139767,yes,Went back to the sidewalk,4,4,2,B,0.05
+983,0,2.5370531995878713,no,dead,5,5,2,B,0.05
+984,0,1.330229985730927,no,dead,7,7,2,B,0.05
+985,0,-1.1510619018286956,yes,Went back to the sidewalk,7,7,2,B,0.05
+986,0,-0.4074676812338711,yes,Went back to the sidewalk,13,13,2,B,0.05
+987,0,8.09971308000258,yes,Crossed,6,6,2,B,0.05
+988,0,-0.38766321025489214,yes,Went back to the sidewalk,7,7,2,B,0.05
+989,0,7.510279521355501,yes,Crossed,5,5,2,B,0.05
+990,0,5.878085463406239,no,dead,11,11,2,B,0.05
+991,0,8.088205240063278,yes,Crossed,10,10,2,B,0.05
+992,0,1.4325568865154297,no,dead,7,7,2,B,0.05
+993,0,-1.2840511132888148,yes,Went back to the sidewalk,11,11,2,B,0.05
+994,0,7.708697999073202,yes,Crossed,14,14,2,B,0.05
+995,0,8.262971551395546,yes,Crossed,15,15,2,B,0.05
+996,0,7.33349131945933,yes,Crossed,5,5,2,B,0.05
+997,0,7.1044250339893305,yes,Crossed,5,5,2,B,0.05
+998,0,7.399565135453064,yes,Crossed,5,5,2,B,0.05
+999,0,-0.8811039151873212,yes,Went back to the sidewalk,4,4,2,B,0.05
