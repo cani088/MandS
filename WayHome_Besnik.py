@@ -1,10 +1,7 @@
 from random import random, uniform, expovariate
 import math
-import time
 import csv
 
-import numpy
-import pygame
 import os
 
 
@@ -12,7 +9,6 @@ class Lane:
     def __init__(self, coordinates, carProbability):
         self.coordinates = coordinates
         self.carProbability = carProbability
-        self.hasCar = False
         self.carTimes = []
         self.generateCarTimes()
 
@@ -47,9 +43,6 @@ class Person:
         # e.g.: if the stepSize is 2m and the person starts in the right direction, then the person's position
         # on the x-axis would be 2
         self.position_x = stepSize
-
-    def isInRange(self, number, range):
-        return range[0] <= number <= range[1]
 
     def isInLaneWithCar(self, street, time):
         for lane in [street.rightLane, street.leftLane]:
