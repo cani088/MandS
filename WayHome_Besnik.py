@@ -68,17 +68,25 @@ class Person:
             elif number <= 0.5:
                 alpha_degree = -90  # Degree change of -90, right turn
 
-        if self.movingType == 'B' or self.movingType == 'C':
+        if self.movingType == 'B' or self.movingType == 'C' or self.movingType == 'D':
             # generate a new alpha angle (in radians) which the person is expected to change the direction
             alpha = uniform(-2 / 3 * math.pi, 2 / 3 * math.pi)
             alpha_degree = round(math.degrees(alpha), 2)  # convert from radian to degree
 
+        if self.movingType == 'D':
+            self.stepSize = expovariate(1 / self.stepSizeConstant)
+
         self.movingDirection += alpha_degree  # change the moving direction with <alpha_degree> degrees
         self.movingDirection %= 360
+        tempX = self.position_x
+
         # Add the cos of the movingDirection angle * the step size to the x position
         self.position_x += math.cos(math.radians(self.movingDirection)) * self.stepSize
         # Add the sin of the movingDirection angle * the step size to the y position
         self.position_y += math.sin(math.radians(self.movingDirection)) * self.stepSize
+
+        if tempX <= self.position_x:
+            totals_global['wrong_dir'] += 1
 
 
 class Simulation:
@@ -129,15 +137,17 @@ class Simulation:
                 totals_global['crossed'] += 1
                 break
 
-            # if the person went back on the initial sidewalk
             if self.person.position_x <= 0:
-                self.person.crossed = True
-                logger.writeResult([self.id, 0, self.person.position_x, 'yes', 'Went back to the sidewalk',
-                                    self.totalSteps, self.time, self.person.stepSize,
-                                    self.person.movingType, self.carProbability])
-                print('Person went back to the sidewalk, time elapsed: ' + str(self.time) + ' seconds')
-                totals_global['went_back'] += 1
-                break
+                self.person.position_x = 0
+            # # if the person went back on the initial sidewalk
+            # if self.person.position_x <= 0:
+            #     self.person.crossed = True
+            #     logger.writeResult([self.id, 0, self.person.position_x, 'yes', 'Went back to the sidewalk',
+            #                         self.totalSteps, self.time, self.person.stepSize,
+            #                         self.person.movingType, self.carProbability])
+            #     print('Person went back to the sidewalk, time elapsed: ' + str(self.time) + ' seconds')
+            #     totals_global['went_back'] += 1
+            #     break
 
 
 class Logger:
@@ -174,7 +184,7 @@ class Logger:
             csv_writer.writerow(row)
 
 
-movingType = 'C'
+movingType = 'D'
 stepSize = 2
 carProbability = 0.05
 logger = Logger(movingType)
@@ -183,11 +193,20 @@ totals_global = {
     "dead": 0,
     "went_back": 0,
     "steps": 0,
-    "time": 0
+    "time": 0,
+    "wrong_dir": 0
 }
 
-for i in range(0, 1000):
-    simulation = Simulation(movingType, stepSize, carProbability, logger, i)
-    simulation.start()
+sim_res = {}
 
-print(totals_global)
+for cp in range(0, 101):
+    carProbability = cp / 100
+
+    for i in range(0, 100):
+        simulation = Simulation(movingType, stepSize, carProbability, logger, i)
+        simulation.start()
+
+    sim_res[cp] = totals_global['crossed']
+    totals_global['crossed'] = 0
+
+print(sim_res)
