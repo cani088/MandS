@@ -199,14 +199,9 @@ totals_global = {
 
 sim_res = {}
 
-for cp in range(0, 101):
-    carProbability = cp / 100
 
-    for i in range(0, 100):
-        simulation = Simulation(movingType, stepSize, carProbability, logger, i)
-        simulation.start()
+for i in range(0, 100):
+    simulation = Simulation(movingType, stepSize, carProbability, logger, i)
+    simulation.start()
 
-    sim_res[cp] = totals_global['crossed']
-    totals_global['crossed'] = 0
-
-print(sim_res)
+print(totals_global)
